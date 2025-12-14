@@ -3,39 +3,42 @@ layout: chunk
 title: "The Financial House"
 ---
 
-Speaker 1:
 One thing I notice with most people is that their money is kind of spread out everywhere. Different banks. Different accounts. Different advice.
-Speaker 1:
+
 So what I do is pretty simple. I help people organize everything into one clear structure that's easy to understand and follow.
-Speaker 1:
+
 The easiest way to picture it is like a house. I call it a financial house.
-Speaker 1:
+
 Just like a real house, every part has a purpose. And some parts matter more than others.
-Speaker 1:
+
 You'd agree the foundation is the most important part, right?
-Speaker 2:
-Yeah, for sure.
-Speaker 1:
-In your finances, that foundation is protecting income. Because if income disappears, everything else stops mattering.
-Speaker 1:
-In that moment, people aren't thinking about retirement or long-term plans. They're thinking, "How do we pay the mortgage?"
-Speaker 1:
+
+*Yeah, for sure.*
+
+In your finances, that foundation is protecting income. Because if income disappears, everything else stops mattering. In that moment, people aren't thinking about retirement or long-term plans. They're thinking, "How do we pay the mortgage?"
+
 That's why income protection is the foundation of the house.
-Speaker 1:
-The next level is the basics.
-Speaker 1:
-Emergency fund.
-Simple budget.
-Will and power of attorney.
-Speaker 1:
+
+## The Next Level - The Basics
+
+The next level is the basics:
+- Emergency fund
+- Simple budget
+- Will and power of attorney
+
 These are the things that keep everything stable when life throws a surprise.
-Speaker 1:
-After that, we focus on getting rid of debt, and planning for retirement and kids' education.
-Speaker 1:
-And at the very top — the roof of the house — are your goals and dreams.
-Speaker 1:
-Trips.
-Freedom.
-Time.
-Speaker 1:
+
+## Upper Levels
+
+After that, we focus on:
+- Getting rid of debt
+- Planning for retirement and kids' education
+
+## The Roof - Goals and Dreams
+
+And at the very top, the roof of the house, are your goals and dreams:
+- Trips
+- Freedom
+- Time
+
 Because there really has to be more to life than just paying bills.
