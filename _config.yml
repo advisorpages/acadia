@@ -2,7 +2,7 @@
 title: "Presentation Skills Training"
 description: "Financial House and Power of PAC presentation scripts for team training"
 url: "https://advisorpages.github.io"
-baseurl: "/Presentation-Skills"
+baseurl: "/acadia"
 
 # Build settings
 markdown: kramdown
