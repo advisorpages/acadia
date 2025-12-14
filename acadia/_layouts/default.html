@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Site Title" }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul>
+                    {% for item in site.navigation %}
+                    {% assign is_active_parent = false %}
+                    {% if page.url == item.url %}
+                        {% assign is_active_parent = true %}
+                    {% endif %}
+                    {% if item.subnav %}
+                        {% for subitem in item.subnav %}
+                            {% if page.url == subitem.url %}
+                                {% assign is_active_parent = true %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    <li{% if item.subnav %} class="has-submenu"{% endif %}>
+                        <a href="{{ item.url | relative_url }}"{% if is_active_parent %} class="active"{% endif %}>{{ item.title }}</a>
+                        {% if item.subnav %}
+                        <ul class="submenu">
+                            {% for subitem in item.subnav %}
+                            <li>
+                                <a href="{{ subitem.url | relative_url }}"{% if page.url == subitem.url %} class="active"{% endif %}>{{ subitem.title }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="main-wrapper">
+            <header class="top-header">
+                <div class="container">
+                    <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <h1 class="site-title">{{ site.title }}</h1>
+                </div>
+            </header>
+
+            <main class="site-content">
+                <div class="container">
+                    {{ content }}
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            const sidebar = document.querySelector('.sidebar');
+            const overlay = document.createElement('div');
+            overlay.className = 'mobile-overlay';
+            document.body.appendChild(overlay);
+
+            function toggleMenu() {
+                sidebar.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+                overlay.classList.toggle('active');
+                document.body.style.overflow = sidebar.classList.contains('active') ? 'hidden' : '';
+            }
+
+            menuToggle.addEventListener('click', toggleMenu);
+            overlay.addEventListener('click', toggleMenu);
+
+            // Close menu when clicking outside on mobile
+            document.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768 &&
+                    !sidebar.contains(e.target) &&
+                    !menuToggle.contains(e.target) &&
+                    sidebar.classList.contains('active')) {
+                    toggleMenu();
+                }
+            });
+
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768 && sidebar.classList.contains('active')) {
+                    toggleMenu();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
