@@ -13,8 +13,17 @@
             <nav class="sidebar-nav">
                 <ul>
                     {% for item in site.navigation %}
-                    <li>
-                        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+                    <li{% if item.subnav %} class="has-submenu"{% endif %}>
+                        <a href="{{ item.url | relative_url }}"{% if page.url == item.url or (item.subnav and item.subnav contains page.url) %} class="active"{% endif %}>{{ item.title }}</a>
+                        {% if item.subnav %}
+                        <ul class="submenu">
+                            {% for subitem in item.subnav %}
+                            <li>
+                                <a href="{{ subitem.url | relative_url }}"{% if page.url == subitem.url %} class="active"{% endif %}>{{ subitem.title }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>
