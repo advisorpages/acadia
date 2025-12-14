@@ -109,6 +109,13 @@ body {
   position: relative;
 }
 
+.has-submenu .submenu {
+  display: block !important;
+  visibility: visible !important;
+  height: auto !important;
+  opacity: 1 !important;
+}
+
 .sidebar-nav .has-submenu > a::after {
   content: '▶';
   position: absolute;
@@ -135,6 +142,10 @@ body {
   padding: 0;
   background-color: #f8f9fa;
   border-left: 3px solid #e1e4e8;
+  display: block !important;
+  visibility: visible !important;
+  height: auto !important;
+  opacity: 1 !important;
 }
 
 .submenu li {
