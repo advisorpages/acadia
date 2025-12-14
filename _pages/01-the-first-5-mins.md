@@ -4,12 +4,6 @@ title: "The First 5 Minutes"
 description: "Opening dialogue and setting expectations for the meeting"
 ---
 
-# The Opener
-
-Opening dialogue and setting expectations for the meeting
-
----
-
 Hey, thanks for meeting up. I really appreciate you taking the time.
 
 Before we get into anything, I just want to be clear — this isn't a sales meeting.
