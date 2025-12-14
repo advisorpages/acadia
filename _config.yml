@@ -1,8 +1,8 @@
 # Site settings
 title: "Presentation Skills Training"
 description: "Financial House and Power of PAC presentation scripts for team training"
-baseurl: "/acadia"
-url: "https://advisorpages.github.io"
+baseurl: ""
+url: "https://advisorpages.github.io/acadia"
 
 # Build settings
 markdown: kramdown
@@ -17,7 +17,7 @@ collections:
     permalink: /chunks/:name/
   pages:
     output: true
-    permalink: /:name/
+    permalink: /pages/:name/
 
 # Defaults
 defaults:
@@ -45,28 +45,26 @@ exclude:
 # Navigation
 navigation:
   - title: "Home"
-    url: "/acadia/"
-  - title: "Complete Script"
-    url: "/acadia/complete-script/"
+    url: "/"
   - title: "Presentation Guide"
-    url: "/acadia/pages/"
+    url: "/pages/"
   - title: "1. The Opener"
-    url: "/acadia/pages/01-the-opener/"
+    url: "/pages/01-the-opener/"
   - title: "2. Getting to Know You"
-    url: "/acadia/pages/02-getting-to-know-you/"
+    url: "/pages/02-getting-to-know-you/"
   - title: "3. Setting Expectations"
-    url: "/acadia/pages/03-setting-expectations/"
+    url: "/pages/03-setting-expectations/"
   - title: "4. Financial House"
-    url: "/acadia/pages/04-the-financial-house/"
+    url: "/pages/04-the-financial-house/"
   - title: "5. Problems with House"
-    url: "/acadia/pages/05-problems-with-the-house/"
+    url: "/pages/05-problems-with-the-house/"
   - title: "6. How We Get Paid"
-    url: "/acadia/pages/06-how-we-get-paid/"
+    url: "/pages/06-how-we-get-paid/"
   - title: "7. The Sort"
-    url: "/acadia/pages/07-the-sort/"
+    url: "/pages/07-the-sort/"
   - title: "8. Client Scenarios"
-    url: "/acadia/pages/08-client-scenarios/"
+    url: "/pages/08-client-scenarios/"
   - title: "9. Partner Recruitment"
-    url: "/acadia/pages/09-partner-recruitment/"
+    url: "/pages/09-partner-recruitment/"
   - title: "10. Referrer Scenarios"
-    url: "/acadia/pages/10-referrer-scenarios/"
+    url: "/pages/10-referrer-scenarios/"
