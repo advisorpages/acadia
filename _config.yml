@@ -1,8 +1,8 @@
 # Site settings
 title: "Presentation Skills Training"
 description: "Financial House and Power of PAC presentation scripts for team training"
-baseurl: ""
-url: "https://advisorpages.github.io/acadia"
+url: "https://advisorpages.github.io"
+baseurl: "/Presentation-Skills"
 
 # Build settings
 markdown: kramdown
