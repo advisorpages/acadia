@@ -3,11 +3,7 @@ layout: chunk
 title: "The Financial House"
 ---
 
-One thing I notice with most people is that their money is kind of spread out everywhere. Different banks. Different accounts. Different advice.
-
-So what I do is pretty simple. I help people organize everything into one clear structure that's easy to understand and follow.
-
-The easiest way to picture it is like a house. I call it a financial house.
+In a nutshell I build people's financial house.
 
 Just like a real house, every part has a purpose. And some parts matter more than others.
 
