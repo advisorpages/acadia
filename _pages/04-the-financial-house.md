@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "04 The Financial House"
+title: "The Financial House"
 
 ---
 

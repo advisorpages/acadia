@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "05a The Solution"
+title: "The Solution"
 
 ---
 

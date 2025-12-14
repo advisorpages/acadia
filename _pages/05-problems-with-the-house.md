@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "05 Problems With The House"
+title: "Problems With The House"
 
 ---
 

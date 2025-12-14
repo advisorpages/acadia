@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "03 Setting Expectations"
+title: "Setting Expectations"
 
 ---
 

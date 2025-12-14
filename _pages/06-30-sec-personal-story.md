@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "06 30 Sec Personal Story"
+title: "30 Second Personal Story"
 
 ---
 

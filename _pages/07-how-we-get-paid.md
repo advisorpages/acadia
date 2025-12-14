@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "07 How We Get Paid"
+title: "How We Get Paid"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "08a Getting A Plan"
+title: "Getting A Plan"
 
 ---
 
