@@ -60,14 +60,34 @@
                     <div class="chunk-nav">
                         {% assign prev_page = nil %}
                         {% assign next_page = nil %}
+                        {% assign last_item = nil %}
                         {% assign found_current = false %}
+
                         {% for item in site.navigation %}
-                            {% if item.url == page.url %}
-                                {% assign found_current = true %}
-                            {% elsif found_current == false %}
-                                {% assign prev_page = item %}
-                            {% elsif found_current == true and next_page == nil %}
-                                {% assign next_page = item %}
+                            {% if next_page == nil %}
+                                {% if item.url == page.url %}
+                                    {% assign prev_page = last_item %}
+                                    {% assign found_current = true %}
+                                {% elsif found_current %}
+                                    {% assign next_page = item %}
+                                {% else %}
+                                    {% assign last_item = item %}
+                                {% endif %}
+                            {% endif %}
+
+                            {% if item.subnav %}
+                                {% for subitem in item.subnav %}
+                                    {% if next_page == nil %}
+                                        {% if subitem.url == page.url %}
+                                            {% assign prev_page = last_item %}
+                                            {% assign found_current = true %}
+                                        {% elsif found_current %}
+                                            {% assign next_page = subitem %}
+                                        {% else %}
+                                            {% assign last_item = subitem %}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
                             {% endif %}
                         {% endfor %}
 
