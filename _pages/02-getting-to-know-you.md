@@ -1,13 +1,6 @@
 ---
 layout: chunk
 title: "Getting to Know You"
-description: "Client discovery questions and rapport building"
----
-
-# Getting to Know You
-
-Client discovery questions and rapport building
-
 ---
 
 So, before we dive in... tell me more about yourself:

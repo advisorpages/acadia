@@ -1,7 +1,6 @@
 ---
 layout: chunk
 title: "The First 5 Minutes"
-description: "Opening dialogue and setting expectations for the meeting"
 ---
 
 Hey, thanks for meeting up. I really appreciate you taking the time.

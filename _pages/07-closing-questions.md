@@ -1,13 +1,6 @@
 ---
 layout: chunk
-title: "Closing Question - Presentation Skills"
-description: "Qualifying and determining next steps"
----
-
-# The Sort
-
-Qualifying and determining next steps
-
+title: "Closing Question"
 ---
 
 Out of everything we just talked about, what stood out to you the most right now?

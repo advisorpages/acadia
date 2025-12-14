@@ -1,13 +1,6 @@
 ---
 layout: chunk
 title: "Setting Expectations"
-description: "Explaining the three possible outcomes of the meeting"
----
-
-# Setting Expectations
-
-Explaining the three possible outcomes of the meeting
-
 ---
 
 Thanks for sharing that. I know you're busy, so I'll keep this simple.

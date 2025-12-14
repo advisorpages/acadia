@@ -1,13 +1,6 @@
 ---
 layout: chunk
 title: "Getting a Plan"
-description: "Working with potential clients who need financial help"
----
-
-# Client Scenarios
-
-Working with potential clients who need financial help
-
 ---
 
 When someone identifies themselves as needing help with their finances, here's how to approach the conversation:

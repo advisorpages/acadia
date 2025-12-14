@@ -1,13 +1,6 @@
 ---
 layout: chunk
 title: "Referring Others"
-description: "Working with people who can refer clients or team members"
----
-
-# Referrer Scenarios
-
-Working with people who can refer clients or team members
-
 ---
 
 When someone is well-connected and could be a source of referrals:

@@ -1,13 +1,6 @@
 ---
 layout: chunk
-title: "Problems with the House - Presentation Skills"
-description: "Common issues people face with their financial structure"
----
-
-# Problems with the House
-
-Common issues people face with their financial structure
-
+title: "Problems with the House"
 ---
 
 If you look at this, you're probably thinking that every bank and financial advisor in Canada does this. Why would they want to pick me and my team? It's not obvious, but there's a bunch of problems with this house.

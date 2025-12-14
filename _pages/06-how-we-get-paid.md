@@ -1,13 +1,6 @@
 ---
 layout: chunk
 title: "How We Get Paid - Presentation Skills"
-description: "Explaining the compensation model for team members"
----
-
-# How We Get Paid
-
-Explaining the compensation model for team members
-
 ---
 
 Before we go any further, I think it's important to explain how we actually get paid.

@@ -1,13 +1,6 @@
 ---
 layout: chunk
-title: "The Financial House - Presentation Skills"
-description: "Introducing the core financial house metaphor and structure"
----
-
-# The Financial House
-
-Introducing the core financial house metaphor and structure
-
+title: "The Financial House"
 ---
 
 One thing I notice with most people is that their money is kind of spread out everywhere. Different banks. Different accounts. Different advice.

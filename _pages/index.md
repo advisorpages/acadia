@@ -1,13 +1,6 @@
 layout: chunk
 title: "Presentation Skills Guide"
-description: "Complete guide to financial presentation skills and scripts"
 permalink: /pages/
----
-
-# Presentation Skills Guide
-
-Complete guide to financial presentation skills and scripts
-
 ---
 
 Welcome to the comprehensive presentation skills guide for financial professionals. This guide is organized into sequential sections that walk through the entire presentation process from opening to closing.

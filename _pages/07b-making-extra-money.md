@@ -1,13 +1,6 @@
 ---
 layout: chunk
 title: "Making Extra Money"
-description: "Building your team and recruiting potential partners"
----
-
-# Partner Recruitment
-
-Building your team and recruiting potential partners
-
 ---
 
 When someone shows interest in the business opportunity or seems like they'd be a good fit for the team:
