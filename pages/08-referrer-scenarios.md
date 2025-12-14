@@ -1,12 +1,18 @@
 ---
-layout: chunk
-title: "Referrer Scenarios"
+layout: default
+title: "Referring Others"
 description: "Working with people who can refer clients or team members"
+---
+
+# Referrer Scenarios
+
+Working with people who can refer clients or team members
+
 ---
 
 When someone is well-connected and could be a source of referrals:
 
-### Referrer Qualification
+## Referrer Qualification
 
 Look for people who:
 - Have large professional or social networks
@@ -14,7 +20,7 @@ Look for people who:
 - Are natural connectors who enjoy helping others
 - Understand the value you provide
 
-### Building Referral Relationships
+## Building Referral Relationships
 
 1. **Understand their network** - "Tell me more about the people you work with. I'm curious about the types of professionals and business owners you're connected with."
 
@@ -22,13 +28,13 @@ Look for people who:
 
 3. **Make it easy for them** - "I'm not looking for you to sell anything. Just an introduction would be perfect. I can take it from there."
 
-### Referral Incentives
+## Referral Incentives
 
 Explain how referrals benefit both parties:
 - "For anyone you introduce who becomes a client, I typically [mention any referral arrangement if applicable]"
 - "More importantly, you're helping people you care about get access to comprehensive financial planning"
 
-### Types of Referrers
+## Types of Referrers
 
 **Professional Service Providers:**
 - Accountants who see clients needing financial planning
@@ -46,13 +52,13 @@ Explain how referrals benefit both parties:
 - Volunteer leaders with broad networks
 - People who organize networking events
 
-### Sample Language
+## Sample Language
 
 "Based on your work in [their field], I imagine you meet quite a few families who could benefit from having their financial picture organized. I'd love to be the person you think of when you come across someone who mentions needing help with their finances or insurance."
 
 "If you ever come across someone who's good with people, interested in helping others, or looking for additional income, I'd appreciate an introduction. We're always looking for quality people to join our team."
 
-### Maintaining Referral Relationships
+## Maintaining Referral Relationships
 
 - Follow up regularly (not just when you want something)
 - Share success stories from people they've referred
@@ -60,6 +66,6 @@ Explain how referrals benefit both parties:
 - Show appreciation for introductions (even if they don't convert)
 - Keep them updated on your business growth and services
 
-### Long-term Strategy
+## Long-term Strategy
 
 Build a network of referrers who understand your value and can consistently introduce you to qualified prospects. The goal is to have multiple streams of referrals coming from different types of professionals and community connections.
