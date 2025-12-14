@@ -256,6 +256,61 @@ a:hover {
   margin-right: 8px;
 }
 
+/* Dialogue 2-column layout */
+.dialogue-container {
+  margin: 20px 0;
+}
+
+.dialogue-row {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.speaker-column {
+  flex: 0 0 120px;
+  font-weight: 600;
+  color: #2c3e50;
+  padding: 12px 15px;
+  background: #f8f9fa;
+  border-radius: 6px 0 0 6px;
+  border-left: 4px solid #3498db;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.speaker-column.speaker-1 {
+  background: #e8f4fd;
+  border-left-color: #3498db;
+}
+
+.speaker-column.speaker-2 {
+  background: #fdf2f2;
+  border-left-color: #e74c3c;
+  color: #c0392b;
+}
+
+.speaker-column.narrator {
+  background: #f4f4f4;
+  border-left-color: #95a5a6;
+  color: #7f8c8d;
+}
+
+.dialogue-column {
+  flex: 1;
+  padding: 12px 15px;
+  background: white;
+  border-radius: 0 6px 6px 0;
+  border: 1px solid #e1e4e8;
+  border-left: none;
+  line-height: 1.6;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
 .delivery-note {
   font-style: italic;
   color: #7f8c8d;
@@ -425,6 +480,24 @@ th {
     display: block;
     width: 100%;
     text-align: center;
+  }
+
+  /* Mobile dialogue layout */
+  .dialogue-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .speaker-column {
+    flex: none;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
+
+  .dialogue-column {
+    border-radius: 6px;
+    border: 1px solid #e1e4e8;
   }
 }
 

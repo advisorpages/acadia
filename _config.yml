@@ -46,8 +46,6 @@ exclude:
 navigation:
   - title: "Home"
     url: "/"
-  - title: "Presentation Guide"
-    url: "/pages/"
   - title: "1. The First 5 Minutes"
     url: "/pages/01-the-first-5-mins/"
   - title: "2. Getting to Know You"
