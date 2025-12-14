@@ -8,8 +8,29 @@
     <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
 </head>
 <body>
-    <div class="container">
-        {{ content }}
-    </div>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">{{ site.title }}</h1>
+            <nav class="main-nav">
+                <ul>
+                    {% for item in site.navigation %}
+                    <li>
+                        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="site-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

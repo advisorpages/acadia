@@ -15,12 +15,20 @@ collections:
   chunks:
     output: true
     permalink: /chunks/:name/
+  pages:
+    output: true
+    permalink: /:name/
 
 # Defaults
 defaults:
   - scope:
       path: ""
       type: "chunks"
+    values:
+      layout: "chunk"
+  - scope:
+      path: ""
+      type: "pages"
     values:
       layout: "chunk"
 
@@ -40,3 +48,23 @@ navigation:
     url: "/"
   - title: "Complete Script"
     url: "/complete-script/"
+  - title: "1. The Opener"
+    url: "/01-opener/"
+  - title: "2. Getting to Know You"
+    url: "/02-getting-to-know-you/"
+  - title: "3. Setting Expectations"
+    url: "/03-setting-expectations/"
+  - title: "4. Financial House"
+    url: "/04-financial-house/"
+  - title: "5. Problems with House"
+    url: "/05-problems-with-house/"
+  - title: "6. How We Get Paid"
+    url: "/06-how-we-get-paid/"
+  - title: "7. The Sort"
+    url: "/07-the-sort/"
+  - title: "8A. The Client"
+    url: "/08A-the-client/"
+  - title: "8B. The Partner Recruit"
+    url: "/08B-the-partner-recruit/"
+  - title: "8C. The Referrer"
+    url: "/08C-the-referrer/"
