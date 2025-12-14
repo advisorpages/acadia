@@ -1,8 +1,8 @@
 # Site settings
 title: "Presentation Skills Training"
 description: "Financial House and Power of PAC presentation scripts for team training"
-baseurl: ""
-url: ""
+baseurl: "/build"
+url: "https://advisorpages.github.io/build"
 
 # Build settings
 markdown: kramdown
