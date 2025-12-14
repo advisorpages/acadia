@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "The First 5 Minutes"
 description: "Opening dialogue and setting expectations for the meeting"
 ---

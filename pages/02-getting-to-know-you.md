@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "Getting to Know You"
 description: "Client discovery questions and rapport building"
 ---

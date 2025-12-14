@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "Closing Question - Presentation Skills"
 description: "Qualifying and determining next steps"
 ---

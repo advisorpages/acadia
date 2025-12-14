@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "Presentation Skills Guide"
 description: "Complete guide to financial presentation skills and scripts"
 ---

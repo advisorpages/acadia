@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "Setting Expectations"
 description: "Explaining the three possible outcomes of the meeting"
 ---

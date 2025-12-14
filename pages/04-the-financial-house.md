@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "The Financial House - Presentation Skills"
 description: "Introducing the core financial house metaphor and structure"
 ---

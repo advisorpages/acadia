@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "Getting a Plan"
 description: "Working with potential clients who need financial help"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "Making Extra Money"
 description: "Building your team and recruiting potential partners"
 ---

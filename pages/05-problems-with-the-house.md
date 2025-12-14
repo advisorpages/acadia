@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chunk
 title: "Problems with the House - Presentation Skills"
 description: "Common issues people face with their financial structure"
 ---
