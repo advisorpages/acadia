@@ -17,7 +17,7 @@ There's no salary and there's no hourly wage. You're paid based on the work you 
 
 Here's what that looks like in real terms.
 
-**Insurance Services** (life, home, auto, travel):
+**Insurance** (life, home, auto, travel):
 - Average compensation: about $500 per client
 
 **Wills and Power of Attorney:**
@@ -49,12 +49,9 @@ There are no quotas. You're not forced to sell anything. And most of the work ca
 
 ## The Value Proposition
 
-So let me ask you something. In your current job, how long does it take to earn $600?
+So let me ask you something. In your current job, how long does it take to earn $1000?
 
 For most people, that's several days of work.
 
 Here, it's one family.
 
-That doesn't make it easy — but it makes it clear.
-
-That's the compensation model. Nothing hidden. Nothing complicated. Just paid for helping people solve real problems.

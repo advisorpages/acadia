@@ -3,7 +3,7 @@ layout: chunk
 title: "Problems with the House"
 ---
 
-If you look at this, you're probably thinking that every bank and financial advisor in Canada does this. Why would they want to pick me and my team? It's not obvious, but there's a bunch of problems with this house.
+If you look at this, you're probably thinking that every bank and financial advisor in Canada does this. Why would anyone want to pick me and my team? It's not obvious, but there's a bunch of problems with this house.
 
 Let me give you a few examples:
 
@@ -85,7 +85,7 @@ Does anyone come to mind at all?
 
 Oh, okay. For sure. I can put one together for you. What's your number? I'll call you during the week to grab some information when I'm free.
 
-*"Yeah, it's 4165, five, five. One, two, three, four."*
+*"Yeah, it's 416-555-1234."*
 
 Great. Thanks. Outside of you. Does anyone else come to mind at all?
 
@@ -103,4 +103,4 @@ No problem. Instead, maybe you could send them an email introducing me instead. 
 
 *"Okay. Yeah. That's a better idea."*
 
-Great. Again, I appreciate it. You can also help by looking out for people who might want to join our team and help solve money problems for others. We're hiring. Our manager is doing phone interviews in the next few weeks and we'd love to meet anyone you think of. Let me show you how we get paid so you can tell others.
+Great. Again, I appreciate it.
