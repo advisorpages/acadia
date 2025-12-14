@@ -9,23 +9,25 @@ Welcome to the Financial House and Power of PAC presentation training materials.
 
 ## Quick Navigation
 
+### 📋 **[Presentation Guide Index](/acadia/pages/)** - Complete step-by-step guide
+
 ### Presentation Flow
 
-1. **[The Opener](/chunks/01-opener/)** - Opening dialogue and setting expectations
-2. **[Getting to Know You](/chunks/02-getting-to-know-you/)** - Client discovery questions
-3. **[Setting Expectations](/chunks/03-setting-expectations/)** - Three possible outcomes
-4. **[The Financial House](/chunks/04-financial-house/)** - Core concept introduction
-5. **[Problems with the House](/chunks/05-problems-with-house/)** - Common issues identification
-6. **[How We Get Paid](/chunks/06-how-we-get-paid/)** - Compensation explanation
-7. **[The Sort](/chunks/07-the-sort/)** - Qualification and next steps
+1. **[The Opener](/acadia/pages/01-the-opener/)** - Opening dialogue and setting expectations
+2. **[Getting to Know You](/acadia/pages/02-getting-to-know-you/)** - Client discovery questions
+3. **[Setting Expectations](/acadia/pages/03-setting-expectations/)** - Three possible outcomes
+4. **[The Financial House](/acadia/pages/04-the-financial-house/)** - Core concept introduction
+5. **[Problems with the House](/acadia/pages/05-problems-with-the-house/)** - Common issues identification
+6. **[How We Get Paid](/acadia/pages/06-how-we-get-paid/)** - Compensation explanation
+7. **[The Sort](/acadia/pages/07-the-sort/)** - Qualification and next steps
 
 ### Referral Scenarios
-- **[Client Scenarios](/chunks/08A-the-client/)** - Working with potential clients
-- **[Partner Recruitment](/chunks/08B-the-partner-recruit/)** - Building your team
-- **Referrer Scenarios](/chunks/08C-the-referrer/)** - Working with referrers
+- **[Client Scenarios](/acadia/pages/08-client-scenarios/)** - Working with potential clients
+- **[Partner Recruitment](/acadia/pages/09-partner-recruitment/)** - Building your team
+- **[Referrer Scenarios](/acadia/pages/10-referrer-scenarios/)** - Working with referrers
 
 ### Resources
-- **[Complete Script](/complete-script/)** - Full presentation in one document
+- **[Complete Script](/acadia/complete-script/)** - Full presentation in one document
 
 ## How to Use This Training
 
