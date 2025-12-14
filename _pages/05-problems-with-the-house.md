@@ -17,8 +17,10 @@ title: "05 Problems With The House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Let me give you a few examples. Insurance Gaps</div>
+  <div class="dialogue-column">Let me give you a few examples.</div>
 </div>
+
+<h2 class="subheading">Insurance Gaps</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -52,8 +54,10 @@ title: "05 Problems With The House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Having an emergency fund and a written budget actually helps you stay out of debt. Missing Legal Documents</div>
+  <div class="dialogue-column">Having an emergency fund and a written budget actually helps you stay out of debt.</div>
 </div>
+
+<h2 class="subheading">Missing Legal Documents</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -62,8 +66,10 @@ title: "05 Problems With The House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Most people agree it's important to have one, but very few actually do — because it costs around $1,000 to get one made on this level. Debt Without an End Date</div>
+  <div class="dialogue-column">Most people agree it's important to have one, but very few actually do — because it costs around $1,000 to get one made on this level.</div>
 </div>
+
+<h2 class="subheading">Debt Without an End Date</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -87,8 +93,10 @@ title: "05 Problems With The House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Instead, everyone is focused on increasing your credit limit. Investment Confusion</div>
+  <div class="dialogue-column">Instead, everyone is focused on increasing your credit limit.</div>
 </div>
+
+<h2 class="subheading">Investment Confusion</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -102,8 +110,10 @@ title: "05 Problems With The House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">They're left to figure it out alone — thinking they're doing fine with a three to five percent return — when they could actually be doing a lot better. Missed Opportunities</div>
+  <div class="dialogue-column">They're left to figure it out alone — thinking they're doing fine with a three to five percent return — when they could actually be doing a lot better.</div>
 </div>
+
+<h2 class="subheading">Missed Opportunities</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -122,8 +132,10 @@ title: "05 Problems With The House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Instead, they're putting their money in a regular savings account when they could be getting free money. Skipping Goals and Dreams</div>
+  <div class="dialogue-column">Instead, they're putting their money in a regular savings account when they could be getting free money.</div>
 </div>
+
+<h2 class="subheading">Skipping Goals and Dreams</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
