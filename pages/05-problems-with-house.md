@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 05: Problems with the House"
+title: "Problems with the House"
 description: "Common issues people face with their financial structure"
 ---
 

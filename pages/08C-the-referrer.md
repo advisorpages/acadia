@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 08C: Referrer Scenarios"
+title: "Referrer Scenarios"
 description: "Working with people who can refer clients or team members"
 ---
 

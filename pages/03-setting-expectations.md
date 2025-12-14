@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 03: Setting Expectations"
+title: "Setting Expectations"
 description: "Explaining the three possible outcomes of the meeting"
 ---
 

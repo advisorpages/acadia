@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 08B: Partner Recruitment"
+title: "Partner Recruitment"
 description: "Building your team and recruiting potential partners"
 ---
 

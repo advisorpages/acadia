@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 07: The Sort"
+title: "The Sort"
 description: "Qualifying and determining next steps"
 ---
 

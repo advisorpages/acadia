@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 06: How We Get Paid"
+title: "How We Get Paid"
 description: "Explaining the compensation model for team members"
 ---
 

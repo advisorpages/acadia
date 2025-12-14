@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 04: The Financial House"
+title: "The Financial House"
 description: "Introducing the core financial house metaphor and structure"
 ---
 

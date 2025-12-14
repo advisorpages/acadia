@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 02: Getting to Know You"
+title: "Getting to Know You"
 description: "Client discovery questions and rapport building"
 ---
 

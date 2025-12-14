@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 01: The Opener"
+title: "The Opener"
 description: "Opening dialogue and setting expectations for the meeting"
 ---
 

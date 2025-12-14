@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Chunk 08A: Client Scenarios"
+title: "Client Scenarios"
 description: "Working with potential clients who need financial help"
 ---
 
