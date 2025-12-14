@@ -154,7 +154,7 @@ title: "05 Problems With The House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Yes. I totally agree. The Two Biggest Problems</div>
+  <div class="dialogue-column">Yes. I totally agree.</div>
 </div>
 
 </div>
