@@ -3,7 +3,9 @@ layout: chunk
 title: "Setting Expectations"
 ---
 
-Thanks for sharing that. I know you're busy, so I'll keep this simple.
+Thanks for sharing that.
+
+I know you're busy, so I'll keep this simple.
 
 Usually, one of three things happens in meetings like this.
 
