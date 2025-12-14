@@ -1,6 +1,6 @@
----
 layout: default
 title: "Complete Presentation Script"
+permalink: /complete-script/
 ---
 
 # Complete Presentation Script
