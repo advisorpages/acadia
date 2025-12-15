@@ -56,3 +56,15 @@ title: "The First 5 Minutes"
     <div class="dialogue-column">Yeah, absolutely.</div>
   </div>
 </div>
+
+---
+
+## Resource: Client Survey
+
+After setting expectations and building rapport, use the **[Client Survey Questionnaire](client-survey-questionnaire.md)** or the printable **[HTML Client Survey](../client-survey.html)** to guide your discovery conversation.
+
+**Available Tools:**
+- **Client Survey Questionnaire** - Conversational guide with personal-first approach
+- **HTML Client Survey** - Printable form for structured note-taking
+
+Both resources help you understand your prospect's situation, build rapport, and gather insights to guide the rest of your presentation.
