@@ -15,12 +15,15 @@
                     {% assign step_counter = 0 %}
                     {% for item in site.navigation %}
                     {% assign is_home = item.url == '/' %}
+                    {% if is_home %}
+                    {% assign nav_step_label = 'Overview' %}
+                    {% else %}
+                    {% assign step_counter = step_counter | plus: 1 %}
+                    {% assign nav_step_label = 'Step ' | append: step_counter %}
+                    {% endif %}
                     <li{% if item.subnav %} class="has-submenu"{% endif %}>
                         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
-                            {% unless is_home %}
-                            {% assign step_counter = step_counter | plus: 1 %}
-                            <span class="nav-step">Step {{ step_counter }}</span>
-                            {% endunless %}
+                            <span class="nav-step">{{ nav_step_label }}</span>
                             <span class="nav-title">{{ item.title }}</span>
                         </a>
                         {% if item.subnav %}
