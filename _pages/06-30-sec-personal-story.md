@@ -15,10 +15,7 @@ title: "30 Second Personal Story"
   <div class="dialogue-column">As I mentioned earlier, my goal is to open my own branch within the next eighteen months. I want you to understand the model clearly — not as a pitch — but so you can explain it to others if it ever comes up.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>My Background Before Finance</strong></div>
-</div>
+<h2 class="subheading">My Background Before Finance</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -35,10 +32,7 @@ title: "30 Second Personal Story"
   <div class="dialogue-column">They had insurance they didn’t fully understand, their finances were scattered, and honestly, they were being taken advantage of without realizing it.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>What Made Me Get Into Finance</strong></div>
-</div>
+<h2 class="subheading">What Made Me Get Into Finance</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -70,10 +64,7 @@ title: "30 Second Personal Story"
   <div class="dialogue-column">And second — that helping people this way could also create a meaningful part-time income.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>My Goal for the Future</strong></div>
-</div>
+<h2 class="subheading">My Goal for the Future</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>

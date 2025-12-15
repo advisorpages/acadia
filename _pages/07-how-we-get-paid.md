@@ -12,8 +12,10 @@ title: "How We Get Paid"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">There's no salary and there's no hourly wage. You're paid based on the work you do and the value you bring. Compensation Breakdown</div>
+  <div class="dialogue-column">There's no salary and there's no hourly wage. You're paid based on the work you do and the value you bring.</div>
 </div>
+
+<h2 class="subheading">Compensation Breakdown</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -72,8 +74,10 @@ title: "How We Get Paid"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">There are no quotas. You're not forced to sell anything. And most of the work can be done online. The Value Proposition</div>
+  <div class="dialogue-column">There are no quotas. You're not forced to sell anything. And most of the work can be done online.</div>
 </div>
+
+<h2 class="subheading">The Value Proposition</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>

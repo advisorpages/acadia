@@ -57,8 +57,10 @@ title: "How I Fix the House"
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Exactly. The Solution</div>
+  <div class="dialogue-column">Exactly.</div>
 </div>
+
+<h2 class="subheading">The Solution</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>

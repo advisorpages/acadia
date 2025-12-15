@@ -25,10 +25,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">Yes.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>Understanding Your Income Goals</strong></div>
-</div>
+<h2 class="subheading">Understanding Your Income Goals</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -55,10 +52,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">I'll walk you through our ninety-day training system in more detail, and I'll also introduce you to my broker — she's the one who signs off on all new hires.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>The Power of Passive Income</strong></div>
-</div>
+<h2 class="subheading">The Power of Passive Income</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -95,10 +89,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">You can almost think of it like building your own pension.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>What Most Families Are Missing</strong></div>
-</div>
+<h2 class="subheading">What Most Families Are Missing</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -135,10 +126,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">And fourth — there's no written plan.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>The Passive Income Math</strong></div>
-</div>
+<h2 class="subheading">The Passive Income Math</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -175,10 +163,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">But here's the key — once people start monthly contributions, they usually don't stop. It becomes automatic.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>The Simple Goal That Changed Everything</strong></div>
-</div>
+<h2 class="subheading">The Simple Goal That Changed Everything</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -200,10 +185,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">And that's just from focusing on investments — an area where people desperately need guidance.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>The Five-Year Projection</strong></div>
-</div>
+<h2 class="subheading">The Five-Year Projection</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -230,10 +212,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">That's when this really clicked for me.</div>
 </div>
 
-<div class="dialogue-row subheading">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column"><strong>Next Steps</strong></div>
-</div>
+<h2 class="subheading">Next Steps</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
