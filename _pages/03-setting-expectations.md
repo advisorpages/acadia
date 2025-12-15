@@ -4,6 +4,10 @@ title: "Setting Expectations"
 
 ---
 
+# Setting Expectations
+
+**Objective**: Explain exactly how this conversation can go so there are no surprises.
+
 <div class="dialogue-container">
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>

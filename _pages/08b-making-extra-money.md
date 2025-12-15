@@ -4,6 +4,10 @@ title: "Response B: Making Extra Money"
 
 ---
 
+# Response B: Making Extra Money
+
+**Objective**: Show how helping families can also create part-time income over time.
+
 <div class="dialogue-container">
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>

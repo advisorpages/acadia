@@ -4,6 +4,10 @@ title: "How We Get Paid"
 
 ---
 
+# How We Get Paid
+
+**Objective**: Be upfront about how you earn money so there's no confusion or doubt.
+
 <div class="dialogue-container">
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
