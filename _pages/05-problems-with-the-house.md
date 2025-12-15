@@ -4,8 +4,6 @@ title: "Problems With The House"
 
 ---
 
-# Problems With The House
-
 **Objective**: Point out the common gaps and mistakes most families don't realize they have.
 
 <div class="dialogue-container">

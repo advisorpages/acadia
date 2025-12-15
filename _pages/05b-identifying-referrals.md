@@ -4,8 +4,6 @@ title: "Ask for Client Referrals"
 
 ---
 
-# Ask for Client Referrals
-
 **Objective**: Ask for introductions while trust is high and the value is clear.
 
 <div class="dialogue-container">

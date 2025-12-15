@@ -4,8 +4,6 @@ title: "30 Second Personal Story"
 
 ---
 
-# 30 Second Personal Story
-
 **Objective**: Explain why you do this and how you saw it work in real life.
 
 <div class="dialogue-container">

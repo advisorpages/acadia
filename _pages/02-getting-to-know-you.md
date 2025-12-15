@@ -3,8 +3,6 @@ layout: chunk
 title: "Getting to Know You"
 ---
 
-# Getting to Know You
-
 **Objective**: Learn what actually matters to them — their family, time, stress, and money concerns.
 
 <div class="dialogue-container">

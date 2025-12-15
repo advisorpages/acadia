@@ -4,8 +4,6 @@ title: "How I Fix the House"
 
 ---
 
-# How I Fix the House
-
 **Objective**: Explain how everything gets organized and improved with one clear plan.
 
 <div class="dialogue-container">

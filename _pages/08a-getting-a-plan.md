@@ -4,8 +4,6 @@ title: "Response A: Getting A Plan"
 
 ---
 
-# Response A: Getting A Plan
-
 **Objective**: Set up the next meeting and start the planning process.
 
 <div class="dialogue-container">

@@ -3,8 +3,6 @@ layout: chunk
 title: "The First 5 Minutes"
 ---
 
-# The First 5 Minutes
-
 **Objective**: Help them relax, drop their guard, and understand this isn't a sales pitch.
 
 <div class="dialogue-container">

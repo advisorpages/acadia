@@ -4,8 +4,6 @@ title: "The Financial House"
 
 ---
 
-# The Financial House
-
 **Objective**: Show them a simple way to look at their money as one complete picture.
 
 <div class="dialogue-container">

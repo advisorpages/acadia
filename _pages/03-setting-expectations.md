@@ -4,8 +4,6 @@ title: "Setting Expectations"
 
 ---
 
-# Setting Expectations
-
 **Objective**: Explain exactly how this conversation can go so there are no surprises.
 
 <div class="dialogue-container">

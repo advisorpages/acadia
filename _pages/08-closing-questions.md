@@ -4,8 +4,6 @@ title: "The Closing Question!"
 
 ---
 
-# The Closing Question!
-
 **Objective**: Help them decide what they want next — a plan, extra income, or both.
 
 <div class="dialogue-container">
