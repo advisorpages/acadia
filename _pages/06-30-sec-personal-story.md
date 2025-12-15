@@ -15,6 +15,11 @@ title: "30 Second Personal Story"
   <div class="dialogue-column">As I mentioned earlier, my goal is to open my own branch within the next eighteen months. I want you to understand the model clearly — not as a pitch — but so you can explain it to others if it ever comes up.</div>
 </div>
 
+<div class="dialogue-row subheading">
+  <div class="speaker-column speaker-1">Speaker 1:</div>
+  <div class="dialogue-column"><strong>My Background Before Finance</strong></div>
+</div>
+
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
   <div class="dialogue-column">Before I do that though, let me quickly share how I got into this business, because I was definitely not interested in finance at first.</div>
@@ -28,6 +33,11 @@ title: "30 Second Personal Story"
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
   <div class="dialogue-column">They had insurance they didn’t fully understand, their finances were scattered, and honestly, they were being taken advantage of without realizing it.</div>
+</div>
+
+<div class="dialogue-row subheading">
+  <div class="speaker-column speaker-1">Speaker 1:</div>
+  <div class="dialogue-column"><strong>What Made Me Get Into Finance</strong></div>
 </div>
 
 <div class="dialogue-row">
@@ -58,6 +68,11 @@ title: "30 Second Personal Story"
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
   <div class="dialogue-column">And second — that helping people this way could also create a meaningful part-time income.</div>
+</div>
+
+<div class="dialogue-row subheading">
+  <div class="speaker-column speaker-1">Speaker 1:</div>
+  <div class="dialogue-column"><strong>My Goal for the Future</strong></div>
 </div>
 
 <div class="dialogue-row">

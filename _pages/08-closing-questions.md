@@ -20,19 +20,14 @@ title: "The Closing Question!"
   <div class="dialogue-column">And everyone reacts to this differently — which is totally fine.</div>
 </div>
 
-<div class="dialogue-row">
+<div class="dialogue-row highlight-question">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">So let me ask you something.</div>
+  <div class="dialogue-column"><strong>Let me ask you the most important question:</strong></div>
 </div>
 
-<div class="dialogue-row">
+<div class="dialogue-row highlight-question">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Out of everything I shared with you today, what’s the one thing that stood out to you the most?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Getting a plan? Making some extra money as a side gig? Or a little bit of both?</div>
+  <div class="dialogue-column">Out of everything I shared with you today, what stood out to you the most? Getting a plan, making some extra money as a side gig, or a little bit of both?</div>
 </div>
 
 <div class="dialogue-row">
