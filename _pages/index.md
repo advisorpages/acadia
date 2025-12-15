@@ -3,7 +3,7 @@ layout: chunk
 title: "Presentation Skills Training Framework"
 ---
 
-# Presentation Skills Training Framework
+**Objective**: Guide you through delivering a simple, duplicatable presentation that piques interest, gets them a plan, and recruits them onto the team.
 
 ## Overview
 
