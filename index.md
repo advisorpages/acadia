@@ -3,8 +3,6 @@ layout: chunk
 title: "Presentation Skills Training Framework"
 ---
 
-# Presentation Skills Training Framework
-
 ## Overview
 
 This presentation framework is designed to guide you through delivering a simple, duplicatable presentation broken up into digestible parts. The goal is to **pique interest**, **get them a plan**, and **recruit them onto the team**.
