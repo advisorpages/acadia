@@ -25,7 +25,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">Yes.</div>
 </div>
 
-<h2 class="subheading">Understanding Your Income Goals</h2>
+<h2 class="subheading">Get Their Income Goal</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -52,7 +52,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">I'll walk you through our ninety-day training system in more detail, and I'll also introduce you to my broker — she's the one who signs off on all new hires.</div>
 </div>
 
-<h2 class="subheading">The Power of Passive Income</h2>
+<h2 class="subheading">Create Passive Income Through Investments</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -89,11 +89,11 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">You can almost think of it like building your own pension.</div>
 </div>
 
-<h2 class="subheading">What Most Families Are Missing</h2>
+<h2 class="subheading">Investors Have 4 Major Problems</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Let me show you the plan I used to work toward a five-thousand-dollar-a-month passive income over sixty months.</div>
+  <div class="dialogue-column">Let me show you the plan I used to work toward a five-thousand-dollar-a-month passive income over 5 years.</div>
 </div>
 
 <div class="dialogue-row">
@@ -126,7 +126,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">And fourth — there's no written plan.</div>
 </div>
 
-<h2 class="subheading">The Passive Income Math</h2>
+<h2 class="subheading">Getting Paid through Investments</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -163,7 +163,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">But here's the key — once people start monthly contributions, they usually don't stop. It becomes automatic.</div>
 </div>
 
-<h2 class="subheading">The Simple Goal That Changed Everything</h2>
+<h2 class="subheading">Game Plan: Help 2 Clients Per Week</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -185,7 +185,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">And that's just from focusing on investments — an area where people desperately need guidance.</div>
 </div>
 
-<h2 class="subheading">The Five-Year Projection</h2>
+<h2 class="subheading">Continue It For Five Years</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
@@ -212,7 +212,7 @@ title: "Response B: Making Extra Money"
   <div class="dialogue-column">That's when this really clicked for me.</div>
 </div>
 
-<h2 class="subheading">Next Steps</h2>
+<h2 class="subheading">Schedule a more Detailed Game Plan</h2>
 
 <div class="dialogue-row">
   <div class="speaker-column speaker-1">Speaker 1:</div>
