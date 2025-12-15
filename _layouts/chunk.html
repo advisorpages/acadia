@@ -14,8 +14,7 @@
                 <ul>
                     {% assign main_step_counter = 0 %}
                     {% for item in site.navigation %}
-                    {% assign is_home = item.url == '/' %}
-                    {% if is_home %}
+                    {% if forloop.first %}
                     {% assign nav_step_label = 'Overview' %}
                     {% else %}
                     {% assign main_step_counter = main_step_counter | plus: 1 %}
