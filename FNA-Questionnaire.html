@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Blueprint Questionnaire</title>
+    <style>
+        /* General Styles for Screen and Print */
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12pt;
+            line-height: 1.4;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #000;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        h1 { text-align: center; text-transform: uppercase; font-size: 18pt; margin-bottom: 30px; }
+        h2 { font-size: 14pt; margin-top: 25px; background-color: #f0f0f0; padding: 5px; }
+        h3 { font-size: 12pt; margin-top: 15px; font-weight: bold; }
+
+        p { margin-bottom: 10px; }
+
+        /* Scripts and Italics */
+        .script {
+            font-style: italic;
+            color: #555;
+            background: #fffbe6; /* Light yellow for script cues on screen */
+            padding: 10px;
+            border-left: 4px solid #ffd700;
+            margin: 15px 0;
+        }
+
+        /* Form Elements */
+        label { font-weight: bold; display: block; margin-bottom: 5px; }
+        
+        input[type="text"], input[type="email"], input[type="date"], input[type="number"] {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #000;
+            background: transparent;
+            padding: 5px 0;
+            margin-bottom: 10px;
+            font-size: 11pt;
+        }
+
+        input[type="checkbox"] { transform: scale(1.2); margin-right: 10px; }
+
+        textarea {
+            width: 100%;
+            border: 1px solid #ccc;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        th { background-color: #e0e0e0; font-weight: bold; }
+
+        /* Footer / Legal */
+        .legal-footer {
+            font-size: 8pt;
+            color: #777;
+            border-top: 1px solid #ccc;
+            margin-top: 40px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        /* PRINT SPECIFIC STYLES */
+        @media print {
+            body { background-color: white; padding: 0; margin: 0; }
+            .container { box-shadow: none; padding: 0; margin: 0; width: 100%; }
+            .script { background: none; border-left: none; color: #000; font-style: italic; padding: 0; }
+            .page-break { page-break-before: always; }
+            textarea { border: 1px solid #000; }
+            input[type="text"] { border-bottom: 1px solid #000; }
+            
+            /* Hide URL headers/footers in modern browsers if user settings allow */
+            @page { margin: 0.75in; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Financial Blueprint Questionnaire</h1>
+    
+    <div style="display: flex; gap: 20px;">
+        <div style="flex: 1;">
+            <label>Client Name:</label>
+            <input type="text">
+        </div>
+        <div style="flex: 1;">
+            <label>Client Name (Spouse):</label>
+            <input type="text">
+        </div>
+        <div style="flex: 1;">
+            <label>Date:</label>
+            <input type="date" value="2024-01-14">
+        </div>
+    </div>
+
+    <h2>F.O.R.M. - Getting to Know You</h2>
+    <p class="script">Before we jump into things, tell me a little bit about yourself...</p>
+
+    <table>
+        <tr>
+            <th width="50%">Occupation</th>
+            <th width="50%">Family</th>
+        </tr>
+        <tr>
+            <td>
+                <label>What line of work are you currently in?</label>
+                <input type="text">
+                <label>How long have you been in that industry?</label>
+                <input type="text">
+                <label>Do you see yourself retiring with your company?</label>
+                <input type="text">
+                <label>What do you enjoy about what you do?</label>
+                <input type="text">
+                <label>If you had to change anything about work, what would it be?</label>
+                <input type="text">
+            </td>
+            <td>
+                <label>Do you have any kids? (How many/Ages)</label>
+                <input type="text">
+                <label>Have you always lived in this area?</label>
+                <input type="text">
+                <br><strong>Recreation</strong><br>
+                <label>What do you usually do when you're not working? (Activities, Sports?)</label>
+                <input type="text">
+            </td>
+        </tr>
+    </table>
+
+    <div class="script">
+        <strong>Transition Out of Small Talk:</strong><br>
+        "I don't want to take up too much of your time and I appreciate you taking the time to meet with me. As I mentioned earlier, my main goal today is to give you a clear understanding of what I do and leave you with a positive impression of my work."
+    </div>
+
+    <h3>Three things typically happen on these appointments:</h3>
+    <ol>
+        <li><strong>Client Referrals:</strong> You find value in what I do and recommend people.</li>
+        <li><strong>Recruiting Referrals:</strong> I'm looking for talent/part-time partners. If someone comes to mind, I'd like to interview them.</li>
+        <li><strong>Earn Your Business:</strong> If you see an area where you could benefit from a second opinion, I'd love to try and earn your business.</li>
+    </ol>
+
+    <div class="legal-footer">
+        Page 1 | Proprietary & Confidential. Content is exclusive property of Tribe Analytics. [cite_start]Unauthorized use prohibited [cite: 26-30].
+    </div>
+
+    <div class="page-break"></div>
+
+    <h1>Retirement Goals & Savings</h1>
+
+    <h2>Retirement Goals</h2>
+    <p class="script">Tell me more about your long-term savings plan.</p>
+    <table>
+        <tr>
+            <td><strong>At what age would you like to stop working?</strong></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Monthly income needed to ensure you don't have to go back to work?</strong></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Based on your current plan, are you on track?</strong></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <h2>Investment Accounts</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Approx. Balance</th>
+            <th>Monthly Contribution</th>
+            <th>Investment Type (Mutual Funds, etc.)</th>
+        </tr>
+        <tr>
+            <td><strong>Client RRSP</strong></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Client TFSA/Other</strong></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Spouse RRSP</strong></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Spouse TFSA/Other</strong></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <div style="border: 1px dashed #000; padding: 10px; margin: 10px 0;">
+        <strong>For those who haven't started saving, it's usually due to:</strong>
+        <ul>
+            <li><input type="checkbox"> Didn't see a need for it.</li>
+            <li><input type="checkbox"> Didn't think you could afford it.</li>
+            <li><input type="checkbox"> Didn't know where to start / Never got around to it.</li>
+        </ul>
+    </div>
+
+    <label>How frequently do you review your portfolio with your advisor?</label>
+    <input type="text">
+    <label>Are you happy with the performance/concerns?</label>
+    <input type="text">
+    <label>Overall, what would you like to see this money do for you?</label>
+    <input type="text">
+
+    <p class="script">"I can't promise anything BUT if I can whip up an investment portfolio that beats your current plan, getting you to your retirement goals faster - Would you be interested in seeing it?"</p>
+
+    <div class="legal-footer">
+        [cite_start]Page 2 | Proprietary & Confidential. Tribe Analytics.[cite: 41].
+    </div>
+    <div class="page-break"></div>
+
+    <h1>Education, Pensions & Assets</h1>
+
+    <h2>Children's Education</h2>
+    <table>
+        <tr>
+            <td>How much of schooling do you plan to fund? (100%, 50%)</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Have you started saving for their education?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Who handles your current education plan?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>How much have you saved?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Do you put away money monthly?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Confidence Level (1-10) that this will be enough:</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <p class="script">"I can't promise anything BUT if I can put together an education plan that ensures your kids don't need to rely on student loans - Would you be interested in seeing it?"</p>
+
+    <h2>Pensions</h2>
+    <label>Does your company provide a pension (Not CPP/OAS)?</label>
+    <input type="text">
+    
+    <label>What kind is it?</label>
+    <div>
+        <input type="checkbox"> <strong>Defined Benefit</strong> (Fixed amount for life, e.g., OMERS, Teachers)<br>
+        <input type="checkbox"> <strong>Defined Contribution</strong> (Matched contributions)
+    </div>
+    <br>
+    <label>Do previous employers owe you a pension?</label>
+    <input type="text">
+
+    <h2>Other Assets</h2>
+    <label>Do you have other assets (Stocks, Gold, Investment Properties)?</label>
+    <input type="text">
+    <label>How much do you currently have saved for emergencies?</label>
+    <input type="text">
+
+    <div class="legal-footer">
+        Page 3 | Proprietary & Confidential. [cite_start]Tribe Analytics.[cite: 71].
+    </div>
+    <div class="page-break"></div>
+
+    <h1>Mortgage & Debts</h1>
+
+    <h2>Mortgage - Principal Residence</h2>
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Which lender is your mortgage with?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Outstanding Balance?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Current Interest Rate?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Monthly Payment?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Renewal Date?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Value of your home?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Do you have mortgage insurance? (Monthly Cost)</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <h2>Mortgage - Other Properties</h2>
+    <label>Do you have additional properties?</label>
+    <input type="text">
+    <table>
+        <tr>
+            <td><strong>Lender:</strong> <input type="text"></td>
+            <td><strong>Balance:</strong> <input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Monthly Pay:</strong> <input type="text"></td>
+            <td><strong>Rate:</strong> <input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Prop Value:</strong> <input type="text"></td>
+            <td><strong>Prop Tax:</strong> <input type="text"></td>
+        </tr>
+    </table>
+
+    <h2>Consumer Debts</h2>
+    <p>Credit cards, lines of credit, loans.</p>
+    <table>
+        <tr>
+            <th>Debt Name</th>
+            <th>Current Balance</th>
+            <th>Min. Payment</th>
+            <th>Interest Rate</th>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <p class="script">"I can't promise anything BUT if I can put together a plan that helps you get out of debt and pay off your mortgage quicker - Would you be interested in seeing it?"</p>
+
+    <div class="legal-footer">
+        Page 4 | Proprietary & Confidential. [cite_start]Tribe Analytics.[cite: 88].
+    </div>
+    <div class="page-break"></div>
+
+    <h1>Insurance Protection</h1>
+
+    <h2>Home & Auto</h2>
+    <label>Insurance Company:</label> <input type="text">
+    <label>Number of Cars/Homes:</label> <input type="text">
+    <label>Monthly Cost:</label> <input type="text">
+    <label>Renewal Date:</label> <input type="text">
+
+    <h2>Life & Mortgage Insurance</h2>
+    <table>
+        <tr>
+            <td colspan="2">
+                <strong>Do you have life or mortgage insurance?</strong> <br>
+                <input type="checkbox"> Yes <input type="checkbox"> No
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: #f9f9f9;">
+                <em>If No, is it because:</em><br>
+                <input type="checkbox"> Didn't see a need. <input type="checkbox"> Couldn't afford it. <input type="checkbox"> Never got around to it.
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Company Name:</strong></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Amount of Coverage:</strong></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Monthly Premium:</strong></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <strong>Is the agent a close friend or relative?</strong> <input type="text"><br>
+                <strong>Did you buy it for Savings or Protection?</strong> <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <strong>If you passed away, would you want your family's standard of living to be:</strong><br>
+                <input type="checkbox"> Better <input type="checkbox"> Worse <input type="checkbox"> Same
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <strong>What would you like to protect?</strong><br>
+                <input type="checkbox"> Pay off Mortgage<br>
+                <input type="checkbox"> Fund Kids Education<br>
+                <input type="checkbox"> Pay off Debts<br>
+                <input type="checkbox"> Final Expenses (Funeral)<br>
+                <input type="checkbox"> Income Replacement
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Do you smoke?</strong></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <p class="script">"If I can put together an insurance plan that gives you more coverage for less money - Would you be interested in seeing it?"</p>
+
+    <div class="legal-footer">
+        Page 5 | Proprietary & Confidential. [cite_start]Tribe Analytics.[cite: 106].
+    </div>
+    <div class="page-break"></div>
+
+    <h1>Cashflow & Budget</h1>
+
+    <table>
+        <tr>
+            <th>Expense Category</th>
+            <th>Current</th>
+            <th>Future</th>
+            <th>Expense Category</th>
+            <th>Current</th>
+            <th>Future</th>
+        </tr>
+        <tr>
+            <td><strong>HOUSING</strong></td>
+            <td colspan="2"></td>
+            <td><strong>LEISURE</strong></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Rent/Mortgage</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Vacations</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Utilities (Elec/Water)</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Dining Out</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Maintenance</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Subscriptions</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        
+        <tr>
+            <td><strong>TRANSPORTATION</strong></td>
+            <td colspan="2"></td>
+            <td><strong>DEBT PAYMENTS</strong></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Gas</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Credit Cards</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Repairs/Maint</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Loans</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td><strong>FAMILY</strong></td>
+            <td colspan="2"></td>
+            <td><strong>SAVINGS</strong></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Groceries</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Retirement</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Child Care</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Education</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Alimony/Support</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Emergency Fund</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        
+        <tr>
+            <td><strong>GIVING</strong></td>
+            <td colspan="2"></td>
+            <td><strong>INCOME</strong></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Charity/Tithing</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>Net Monthly Income</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <div class="legal-footer">
+        Page 6 | Proprietary & Confidential. [cite_start]Tribe Analytics.[cite: 116].
+    </div>
+    <div class="page-break"></div>
+
+    <h1>Buying a Home & Future Goals</h1>
+
+    <h2>Buying a Home</h2>
+    <table>
+        <tr>
+            <td>Have you started the process? Area?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Budget? Down Payment needed?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Monthly savings for home?</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Pre-approved mortgage?</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <h2>Goals and Dreams</h2>
+    <p><em>Examples: New Car, Business Startup, Travel</em></p>
+    <table>
+        <tr>
+            <th>Goal or Dream</th>
+            <th>Cost (Today's Dollars)</th>
+            <th>Years from Today</th>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <div class="legal-footer">
+        Page 7 | Proprietary & Confidential. [cite_start]Tribe Analytics.[cite: 132].
+    </div>
+    <div class="page-break"></div>
+
+    <h1>Personal Information & Commitments</h1>
+
+    <table>
+        <tr>
+            <th>Details</th>
+            <th>Client</th>
+            <th>Spouse</th>
+        </tr>
+        <tr>
+            <td><strong>Full Name</strong></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Net Monthly Income</strong></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><strong>Date of Birth</strong></td>
+            <td><input type="date"></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><strong>Email</strong></td>
+            <td><input type="email"></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><strong>Employer / Job Title</strong></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <h3>Children</h3>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Child Name</th>
+            <th>Birthday</th>
+            <th>Gender</th>
+        </tr>
+        <tr><td>1</td><td><input type="text"></td><td><input type="date"></td><td><input type="text"></td></tr>
+        <tr><td>2</td><td><input type="text"></td><td><input type="date"></td><td><input type="text"></td></tr>
+        <tr><td>3</td><td><input type="text"></td><td><input type="date"></td><td><input type="text"></td></tr>
+        <tr><td>4</td><td><input type="text"></td><td><input type="date"></td><td><input type="text"></td></tr>
+    </table>
+
+    <h2>Commitments</h2>
+    
+    <div style="background: #f0f0f0; padding: 15px; border: 1px solid #ccc;">
+        <p><strong>1. Implementation:</strong> If I can put together a plan that helps you reach your financial goals within your budget, would you go ahead and implement the plan on our next appointment?</p>
+        <label><input type="checkbox"> Yes</label>
+        <label><input type="checkbox"> No</label>
+
+        <p><strong>2. Referrals:</strong> Assuming you feel good about what I do, would you recommend me to 10 or more people like yourselves? (This helps me open my own brokerage).</p>
+        <label><input type="checkbox"> Yes</label>
+        <label><input type="checkbox"> No</label>
+
+        <p><strong>3. Income Opportunity:</strong> If the plan identifies a shortfall, would you be open to earning extra part-time income working with us?</p>
+        <label><input type="checkbox"> Yes</label>
+        <label><input type="checkbox"> No</label>
+    </div>
+
+    <h3>Follow Up Appointment</h3>
+    <p class="script">"It'll take a few days for me to complete this. When would be a good time to follow up? I have an opening this Tuesday or Thursday?"</p>
+    
+    <label>Date of Follow Up:</label>
+    <input type="datetime-local">
+
+    <div class="legal-footer">
+        [cite_start]Page 8 | Proprietary & Confidential. Tribe Analytics.[cite: 163].
+    </div>
+
+</div>
+
+</body>
+</html>
