@@ -111,3 +111,13 @@ When in doubt, default to introducing them to the team rather than pushing for i
 - **Flexible structure** that adapts to different situations
 
 Navigate through each section in order to understand the complete framework, or jump to specific scenarios that match your current presentation needs.
+
+## Complete Script
+
+For the full presentation script with all sections combined for easy reference during client meetings, view the **[Complete Presentation Script]({{ '/archive/complete-script/' | relative_url }})**.
+
+This complete script includes:
+- Full dialogue and conversation examples
+- All presentation sections in sequential order
+- Client scenarios and recruitment approaches
+- Key delivery notes for team members
