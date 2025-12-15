@@ -12,13 +12,14 @@
         <aside class="sidebar">
             <nav class="sidebar-nav">
                 <ul>
+                    {% assign main_step_counter = 0 %}
                     {% for item in site.navigation %}
                     {% assign is_home = item.url == '/' %}
                     {% if is_home %}
                     {% assign nav_step_label = 'Overview' %}
                     {% else %}
-                    {% assign step_number = forloop.index0 %}
-                    {% assign nav_step_label = 'Step ' | append: step_number %}
+                    {% assign main_step_counter = main_step_counter | plus: 1 %}
+                    {% assign nav_step_label = 'Step ' | append: main_step_counter %}
                     {% endif %}
                     <li{% if item.subnav %} class="has-submenu"{% endif %}>
                         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
