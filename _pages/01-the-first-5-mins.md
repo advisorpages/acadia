@@ -5,7 +5,7 @@ title: "The First 5 Minutes"
 
 **Objective**: Help them relax, drop their guard, and understand this isn't a sales pitch.
 
-**Tools**: Use the Client Survey to guide your conversation **[HTML Client Survey](https://advisorpages.github.io/acadia/client-survey.html)**.
+**Tools**: Use the **[Client Survey](https://advisorpages.github.io/acadia/client-survey.html)** to guide your conversation.
 
 <div class="dialogue-container">
   <div class="dialogue-row">

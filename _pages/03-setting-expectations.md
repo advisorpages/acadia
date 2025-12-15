@@ -4,7 +4,7 @@ title: "Setting Expectations"
 
 ---
 
-**Objective**: Explain exactly how this conversation can go so there are no surprises.
+**Objective**: Continue to put your prospect at ease and explain exactly how this conversation will go and reassure them so there are no surprises.
 
 <div class="dialogue-container">
 <div class="dialogue-row">

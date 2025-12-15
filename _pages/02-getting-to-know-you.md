@@ -3,9 +3,13 @@ layout: chunk
 title: "Getting to Know You"
 ---
 
-**Objective**: Use the Client Survey to learn more about what's important to your prospect. Their family, time, stress, and money concerns.
+**Objective**: Use the **[Client Survey](https://advisorpages.github.io/acadia/client-survey.html)** as a guide to learn more about what's important to your prospect. Their family, time, stress, and money concerns.
 
 <div class="dialogue-container">
+  <div class="dialogue-row">
+    <div class="speaker-column narrator">Narrator:</div>
+    <div class="dialogue-column">Use the Client Survey as a guide to learn more about what's important to your prospect. Their family, time, stress, and money concerns. There's a lot of questions on there - make sure to pick the ones that are most relevant to your prospect. Don't go over all the questions because it might start to feel like an interrogation. Do just enough to get a good sense of their situation.</div>
+  </div>
   <div class="dialogue-row">
     <div class="speaker-column speaker-1">Speaker 1:</div>
     <div class="dialogue-column">Before we dive in… tell me a bit about yourself.</div>
@@ -18,7 +22,7 @@ title: "Getting to Know You"
 
   <div class="dialogue-row">
     <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">I'm a nurse at a hospital here in the city. I've been doing that for several years now.</div>
+    <div class="dialogue-column">I'm a nurse at a Toronto General hospital. I've been doing that for 10 years now.</div>
   </div>
 
   <div class="dialogue-row">
@@ -38,7 +42,7 @@ title: "Getting to Know You"
 
   <div class="dialogue-row">
     <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">Definitely the hours. The shifts can be long and unpredictable, and I'd want more balance so I can spend more time with my family.</div>
+    <div class="dialogue-column">Definitely the hours. The shifts can be long and unpredictable and we're so understaffed that we can never get enough help. Honestly, I'd want more life balance so I can spend more time with the family.</div>
   </div>
 
   <div class="dialogue-row">
@@ -48,7 +52,7 @@ title: "Getting to Know You"
 
   <div class="dialogue-row">
     <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">Yes — three kids. They're ten, seven, and five, so they're still pretty young.</div>
+    <div class="dialogue-column">Yes — three kids. They're ten, seven, and five years old.</div>
   </div>
 
   <div class="dialogue-row">
@@ -58,7 +62,7 @@ title: "Getting to Know You"
 
   <div class="dialogue-row">
     <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">We'd slow things down a bit. Spend more time together without worrying about schedules or money.<br>Travel more, be more present, and feel confident that our kids' future is taken care of.</div>
+    <div class="dialogue-column">I think I'd slow things down a bit. Spend more time together without worrying about schedules or money.<br>Travel more, be more present, and feel confident that our kids' future is taken care of.</div>
   </div>
 
   <div class="dialogue-row">
