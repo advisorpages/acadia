@@ -61,7 +61,7 @@ title: "The First 5 Minutes"
 
 ## Resource: Client Survey
 
-After setting expectations and building rapport, use the **[Client Survey Questionnaire](client-survey-questionnaire.md)** or the printable **[HTML Client Survey](../client-survey.html)** to guide your discovery conversation.
+After setting expectations and building rapport, use the **[Client Survey Questionnaire](client-survey-questionnaire.md)** or the printable **[HTML Client Survey](/web/client-survey.html)** to guide your discovery conversation.
 
 **Available Tools:**
 - **Client Survey Questionnaire** - Conversational guide with personal-first approach

@@ -103,7 +103,7 @@ title: "Response A: Getting A Plan"
 
 ## Resource: Financial Needs Analysis (FNA) Questionnaire
 
-For the planning meeting, use the **[FNA Questionnaire](../FNA-Questionnaire.html)** to gather comprehensive financial information and create a detailed financial plan for your clients.
+For the planning meeting, use the **[FNA Questionnaire](/web/FNA-Questionnaire.html)** to gather comprehensive financial information and create a detailed financial plan for your clients.
 
 **Purpose**:
 - Collect detailed financial data for analysis
