@@ -114,10 +114,6 @@ body {
   color: #9aa0a6;
 }
 
-.submenu .nav-step {
-  font-size: 0.65em;
-}
-
 .sidebar-nav a.active .nav-step {
   color: rgba(255, 255, 255, 0.85);
 }

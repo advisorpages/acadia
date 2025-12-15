@@ -15,20 +15,16 @@
                     {% assign step_counter = 0 %}
                     {% for item in site.navigation %}
                     {% assign step_counter = step_counter | plus: 1 %}
-                    {% assign step_label = step_counter %}
                     <li{% if item.subnav %} class="has-submenu"{% endif %}>
                         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
-                            <span class="nav-step">Step {{ step_label }}</span>
+                            <span class="nav-step">Step {{ step_counter }}</span>
                             <span class="nav-title">{{ item.title }}</span>
                         </a>
                         {% if item.subnav %}
                         <ul class="submenu">
                             {% for subitem in item.subnav %}
-                            {% assign step_counter = step_counter | plus: 1 %}
-                            {% assign sub_step_label = step_counter %}
                             <li>
                                 <a href="{{ subitem.url | relative_url }}"{% if page.url == subitem.url %} class="active"{% endif %}>
-                                    <span class="nav-step">Step {{ sub_step_label }}</span>
                                     <span class="nav-title">{{ subitem.title }}</span>
                                 </a>
                             </li>
