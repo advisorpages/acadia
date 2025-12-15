@@ -6,12 +6,7 @@ title: "Getting to Know You"
 <div class="dialogue-container">
   <div class="dialogue-row">
     <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">So, before we dive in… tell me a bit about yourself.</div>
-  </div>
-
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">Sure. I'm married, we have three kids, and we own a home here in Toronto.</div>
+    <div class="dialogue-column">Before we dive in… tell me a bit about yourself.</div>
   </div>
 
   <div class="dialogue-row">
@@ -56,12 +51,7 @@ title: "Getting to Know You"
 
   <div class="dialogue-row">
     <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">That's great. You must have your hands full.</div>
-  </div>
-
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">So if time and money were no issue at all… what would you and your family do differently?<br>What would that kind of freedom look like for you?</div>
+    <div class="dialogue-column">That's great. You must have your hands full. If time and money were no issue at all… what would you and your family do differently?<br>What would that kind of freedom look like for you?</div>
   </div>
 
   <div class="dialogue-row">
@@ -71,12 +61,7 @@ title: "Getting to Know You"
 
   <div class="dialogue-row">
     <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">I understand.</div>
-  </div>
-
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">When do you see your current career allowing you to accomplish those kinds of things?</div>
+    <div class="dialogue-column">I understand. When do you see your current career allowing you to accomplish those kinds of things?</div>
   </div>
 
   <div class="dialogue-row">

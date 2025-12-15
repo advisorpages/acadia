@@ -48,4 +48,9 @@ title: "The First 5 Minutes"
     <div class="speaker-column speaker-1">Speaker 1:</div>
     <div class="dialogue-column">Does that sound fair?</div>
   </div>
+
+  <div class="dialogue-row">
+    <div class="speaker-column speaker-2">Speaker 2:</div>
+    <div class="dialogue-column">Yeah, absolutely.</div>
+  </div>
 </div>
