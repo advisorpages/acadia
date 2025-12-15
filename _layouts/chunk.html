@@ -58,38 +58,37 @@
                     </div>
 
                     <div class="chunk-nav">
-                        {% assign prev_page = nil %}
-                        {% assign next_page = nil %}
-                        {% assign last_item = nil %}
-                        {% assign found_current = false %}
-
+                        {% assign flat_nav = '' | split: '' %}
                         {% for item in site.navigation %}
-                            {% if next_page == nil %}
-                                {% if item.url == page.url %}
-                                    {% assign prev_page = last_item %}
-                                    {% assign found_current = true %}
-                                {% elsif found_current %}
-                                    {% assign next_page = item %}
-                                {% else %}
-                                    {% assign last_item = item %}
-                                {% endif %}
-                            {% endif %}
-
+                            {% assign flat_nav = flat_nav | push: item %}
                             {% if item.subnav %}
                                 {% for subitem in item.subnav %}
-                                    {% if next_page == nil %}
-                                        {% if subitem.url == page.url %}
-                                            {% assign prev_page = last_item %}
-                                            {% assign found_current = true %}
-                                        {% elsif found_current %}
-                                            {% assign next_page = subitem %}
-                                        {% else %}
-                                            {% assign last_item = subitem %}
-                                        {% endif %}
-                                    {% endif %}
+                                    {% assign flat_nav = flat_nav | push: subitem %}
                                 {% endfor %}
                             {% endif %}
                         {% endfor %}
+
+                        {% assign prev_page = nil %}
+                        {% assign next_page = nil %}
+                        {% assign current_index = nil %}
+
+                        {% for nav_item in flat_nav %}
+                            {% if nav_item.url == page.url %}
+                                {% assign current_index = forloop.index0 %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if current_index != nil %}
+                            {% assign prev_index = current_index | minus: 1 %}
+                            {% if prev_index >= 0 %}
+                                {% assign prev_page = flat_nav[prev_index] %}
+                            {% endif %}
+                            {% assign next_index = current_index | plus: 1 %}
+                            {% if next_index < flat_nav.size %}
+                                {% assign next_page = flat_nav[next_index] %}
+                            {% endif %}
+                        {% endif %}
 
                         {% if prev_page %}
                         <a href="{{ prev_page.url | relative_url }}">← Previous: {{ prev_page.title }}</a>

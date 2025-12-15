@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Making Extra Money"
+title: "Response B: Making Extra Money"
 ---
 
 Speaker 1:

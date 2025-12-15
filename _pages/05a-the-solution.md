@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "The Solution"
+title: "How I Fix the House"
 
 ---
 
