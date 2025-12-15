@@ -101,10 +101,3 @@ title: "Ask for Client Referrals"
 </div>
 
 </div>
-
-<div class="page-navigation">
-  <span class="page-indicator">Part 3 of 3</span>
-  <div class="nav-links">
-    <a href="05a-the-solution.html" class="nav-link prev">← Previous</a>
-  </div>
-</div>

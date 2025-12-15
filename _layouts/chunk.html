@@ -57,6 +57,47 @@
                         {{ content }}
                     </div>
 
+                    <div class="chunk-nav">
+                        {% assign flat_nav = '' | split: '' %}
+                        {% for item in site.navigation %}
+                            {% assign flat_nav = flat_nav | push: item %}
+                            {% if item.subnav %}
+                                {% for subitem in item.subnav %}
+                                    {% assign flat_nav = flat_nav | push: subitem %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% assign prev_page = nil %}
+                        {% assign next_page = nil %}
+                        {% assign current_index = nil %}
+
+                        {% for nav_item in flat_nav %}
+                            {% if nav_item.url == page.url %}
+                                {% assign current_index = forloop.index0 %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if current_index != nil %}
+                            {% assign prev_index = current_index | minus: 1 %}
+                            {% if prev_index >= 0 %}
+                                {% assign prev_page = flat_nav[prev_index] %}
+                            {% endif %}
+                            {% assign next_index = current_index | plus: 1 %}
+                            {% if next_index < flat_nav.size %}
+                                {% assign next_page = flat_nav[next_index] %}
+                            {% endif %}
+                        {% endif %}
+
+                        {% if prev_page %}
+                        <a href="{{ prev_page.url | relative_url }}">← Previous: {{ prev_page.title }}</a>
+                        {% endif %}
+                        {% if next_page %}
+                        <a href="{{ next_page.url | relative_url }}">Next: {{ next_page.title }} →</a>
+                        {% endif %}
+                    </div>
+
                 </div>
             </main>
         </div>

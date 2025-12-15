@@ -116,11 +116,3 @@ title: "How I Fix the House"
 </div>
 
 </div>
-
-<div class="page-navigation">
-  <span class="page-indicator">Part 2 of 3</span>
-  <div class="nav-links">
-    <a href="05-problems-with-the-house.html" class="nav-link prev">← Previous</a>
-    <a href="05b-identifying-referrals.html" class="nav-link next">Next →</a>
-  </div>
-</div>
