@@ -3,7 +3,7 @@ layout: chunk
 title: "Getting to Know You"
 ---
 
-**Objective**: Learn what actually matters to them — their family, time, stress, and money concerns.
+**Objective**: Use the Client Survey to learn more about what's important to your prospect. Their family, time, stress, and money concerns.
 
 <div class="dialogue-container">
   <div class="dialogue-row">
