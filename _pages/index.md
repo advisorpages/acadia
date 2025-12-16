@@ -9,6 +9,53 @@ title: "Presentation Skills Training Framework"
 
 This presentation framework is designed to guide you through delivering a simple, duplicatable presentation broken up into digestible parts. The goal is to **pique interest**, **get them a plan**, and **recruit them onto the team**.
 
+<div style="position:relative;height:0;padding-bottom:56.25%">
+  <iframe
+    src="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212?autoplay=false"
+    loading="lazy"
+    style="border:none;position:absolute;top:0;height:100%;width:100%"
+    allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
+    allowfullscreen="true"
+    id="bunny-iframe"
+  ></iframe>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const iframe = document.getElementById('bunny-iframe');
+
+    const chapters = [
+        { time: 0, title: "Break the Ice" },
+        { time: 36, title: "Get to Know Them" },
+        { time: 116, title: "Set Expectations" },
+        { time: 152, title: "The Financial House" },
+        { time: 236, title: "Problems with the House" },
+        { time: 455, title: "The Solution" },
+        { time: 505, title: "Identify Referrals" },
+        { time: 553, title: "Your Personal Story" },
+        { time: 633, title: "How We Get Paid" },
+        { time: 744, title: "The Closing Question" },
+        { time: 765, title: "A) Get a Plan" },
+        { time: 870, title: "B) Make Extra Money" }
+    ];
+
+    iframe.onload = () => {
+        const player = new BunnyStreamPlayer({
+            iframe: iframe,
+        });
+
+        player.on('loaded', () => {
+            player.setChapters(chapters);
+        });
+    };
+});
+</script>
+
+<script
+	src="https://cdn.jsdelivr.net/npm/@bunny/stream-player@1.0.1/dist/player.js"
+	defer
+></script>
+
 ## Presentation Goals
 
 ### Primary Objectives
