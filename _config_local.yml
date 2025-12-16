@@ -1,8 +1,8 @@
 # Site settings
-title: "Coffee Presentation"
-description: "Coffee presentation framework with Financial House and Power of PAC scripts for team training"
+title: "Presentation Skills Training"
+description: "Financial House and Power of PAC presentation scripts for team training"
 url: "https://advisorpages.github.io"
-baseurl: "/acadia"
+baseurl: ""
 
 # Build settings
 markdown: kramdown

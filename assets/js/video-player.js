@@ -175,27 +175,26 @@ document.addEventListener("DOMContentLoaded", function() {
             setActiveChapter(chapterIndex);
         }
 
-        if (playerSupports('method', 'setCurrentTime') && playerReady) {
-            console.log('Using setCurrentTime to jump to chapter');
-            bunnyPlayer.setCurrentTime(seconds);
-            if (playerSupports('method', 'play')) {
-                bunnyPlayer.play();
-            }
-        } else if (bunnyPlayer && !playerReady) {
-            console.log('Player not ready, queuing seek request');
-            pendingSeek = { seconds, chapterIndex };
-        } else {
-            console.log('Using iframe reload to jump to chapter');
-            reloadIframeToTime(seconds);
-        }
+        // Always use Bunny's direct URL parameter method
+        console.log('Using Bunny URL parameters to jump to chapter');
+        reloadIframeToTime(seconds);
     }
 
     function reloadIframeToTime(seconds) {
         if (!bunnyIframe) return;
-        const baseSrc = bunnyIframe.dataset.originalSrc || bunnyIframe.src;
-        bunnyIframe.dataset.originalSrc = baseSrc;
-        const cleanSrc = baseSrc.split('?')[0];
-        bunnyIframe.src = `${cleanSrc}?t=${seconds}&autoplay=true`;
+
+        // Store the original clean URL if not already stored
+        if (!bunnyIframe.dataset.originalSrc) {
+            const currentSrc = bunnyIframe.src;
+            const cleanSrc = currentSrc.split('?')[0];
+            bunnyIframe.dataset.originalSrc = cleanSrc;
+        }
+
+        const baseSrc = bunnyIframe.dataset.originalSrc;
+        console.log(`Reloading iframe to: ${baseSrc}?t=${seconds}&autoplay=true`);
+
+        // Set the new URL with time parameter and autoplay
+        bunnyIframe.src = `${baseSrc}?t=${seconds}&autoplay=true`;
     }
 
     initializePlayer();

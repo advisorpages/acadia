@@ -1,0 +1,45 @@
+home:
+  title: "Home"
+  url: "/"
+  icon: "🏠"
+
+featured:
+  - title: "The Presentation"
+    url: "/the-presentation/"
+    icon: "▶"
+
+steps:
+  - title: "Breaking the Ice"
+    url: "/01-breaking-the-ice/"
+  - title: "Get to Know Them"
+    url: "/02-get-to-know-them/"
+  - title: "Set Expectations"
+    url: "/03-set-expectations/"
+  - title: "The Financial House"
+    url: "/04-the-financial-house/"
+  - title: "Problems with the House"
+    url: "/05-problems-with-the-house/"
+    substeps:
+      - title: "The Solution"
+        url: "/05a-the-solution/"
+      - title: "Identifying Referrals"
+        url: "/05b-identifying-referrals/"
+  - title: "30-Second Personal Story"
+    url: "/06-30-sec-personal-story/"
+  - title: "How We Get Paid"
+    url: "/07-how-we-get-paid/"
+  - title: "Closing Questions"
+    url: "/08-closing-questions/"
+    substeps:
+      - title: "Getting a Plan"
+        url: "/08a-get-a-plan/"
+      - title: "Making Extra Money"
+        url: "/08b-make-extra-money/"
+
+resources:
+  - title: "Client Survey"
+    url: "/client-survey.html"
+    icon: "📋"
+  - title: "Financial Questionnaire"
+    url: "/FNA-Questionnaire.html"
+    icon: "📝"

@@ -1,47 +1,18 @@
+{% capture base_path %}{% include base-path.html %}{% endcapture %}
+{% assign base_path = base_path | strip %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Site Title" }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/video-player.css' | relative_url }}">
-    <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/video-player.css">
+    <link rel="icon" type="image/x-icon" href="{{ base_path }}/favicon.ico">
 </head>
 <body>
     <div class="app-container">
-        <aside class="sidebar">
-            <nav class="sidebar-nav">
-                <ul>
-                    {% assign main_step_counter = 0 %}
-                    {% for item in site.navigation %}
-                    {% if forloop.first %}
-                    {% assign nav_step_label = 'Overview' %}
-                    {% else %}
-                    {% assign main_step_counter = main_step_counter | plus: 1 %}
-                    {% assign nav_step_label = 'Step ' | append: main_step_counter %}
-                    {% endif %}
-                    <li{% if item.subnav %} class="has-submenu"{% endif %}>
-                        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
-                            <span class="nav-step">{{ nav_step_label }}</span>
-                            <span class="nav-title">{% include derived_nav_title.html url=item.url %}</span>
-                        </a>
-                        {% if item.subnav %}
-                        <ul class="submenu">
-                            {% for subitem in item.subnav %}
-                            <li>
-                                <a href="{{ subitem.url | relative_url }}"{% if page.url == subitem.url %} class="active"{% endif %}>
-                                    <span class="nav-title">{% include derived_nav_title.html url=subitem.url %}</span>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                    </li>
-                    {% endfor %}
-                </ul>
-            </nav>
-        </aside>
+        {% include sidebar.html %}
 
         <div class="main-wrapper">
             <header class="top-header">
@@ -70,42 +41,7 @@
     </footer>
 
     <script src="https://assets.mediadelivery.net/playerjs/playerjs-latest.min.js"></script>
-    <script src="{{ '/assets/js/video-player.js' | relative_url }}"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuToggle = document.querySelector('.mobile-menu-toggle');
-            const sidebar = document.querySelector('.sidebar');
-            const overlay = document.createElement('div');
-            overlay.className = 'mobile-overlay';
-            document.body.appendChild(overlay);
-
-            function toggleMenu() {
-                sidebar.classList.toggle('active');
-                menuToggle.classList.toggle('active');
-                overlay.classList.toggle('active');
-                document.body.style.overflow = sidebar.classList.contains('active') ? 'hidden' : '';
-            }
-
-            menuToggle.addEventListener('click', toggleMenu);
-            overlay.addEventListener('click', toggleMenu);
-
-            // Close menu when clicking outside on mobile
-            document.addEventListener('click', function(e) {
-                if (window.innerWidth <= 768 &&
-                    !sidebar.contains(e.target) &&
-                    !menuToggle.contains(e.target) &&
-                    sidebar.classList.contains('active')) {
-                    toggleMenu();
-                }
-            });
-
-            // Handle window resize
-            window.addEventListener('resize', function() {
-                if (window.innerWidth > 768 && sidebar.classList.contains('active')) {
-                    toggleMenu();
-                }
-            });
-        });
-    </script>
+    <script src="{{ base_path }}/assets/js/video-player.js"></script>
+    {% include sidebar-scripts.html %}
 </body>
 </html>

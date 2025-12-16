@@ -1,46 +1,18 @@
+{% capture base_path %}{% include base-path.html %}{% endcapture %}
+{% assign base_path = base_path | strip %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Site Title" }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/video-player.css">
+    <link rel="icon" type="image/x-icon" href="{{ base_path }}/favicon.ico">
 </head>
 <body>
     <div class="app-container">
-        <aside class="sidebar">
-            <nav class="sidebar-nav">
-                <ul>
-                    {% assign main_step_counter = 0 %}
-                    {% for item in site.navigation %}
-                    {% if forloop.first %}
-                    {% assign nav_step_label = 'Overview' %}
-                    {% else %}
-                    {% assign main_step_counter = main_step_counter | plus: 1 %}
-                    {% assign nav_step_label = 'Step ' | append: main_step_counter %}
-                    {% endif %}
-                    <li{% if item.subnav %} class="has-submenu"{% endif %}>
-                        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
-                            <span class="nav-step">{{ nav_step_label }}</span>
-                            <span class="nav-title">{% include derived_nav_title.html url=item.url %}</span>
-                        </a>
-                        {% if item.subnav %}
-                        <ul class="submenu">
-                            {% for subitem in item.subnav %}
-                            <li>
-                                <a href="{{ subitem.url | relative_url }}"{% if page.url == subitem.url %} class="active"{% endif %}>
-                                    <span class="nav-title">{% include derived_nav_title.html url=subitem.url %}</span>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                    </li>
-                    {% endfor %}
-                </ul>
-            </nav>
-        </aside>
+        {% include sidebar.html %}
 
         <div class="main-wrapper">
             <header class="top-header">
@@ -56,11 +28,6 @@
 
             <main class="site-content">
                 <div class="container">
-                    <div class="chunk-nav">
-                        <a href="{{ '/' | relative_url }}" class="back-to-home">← Back to Home</a>
-                        <a href="{{ '/complete-script/' | relative_url }}">View Complete Script</a>
-                    </div>
-
                     <div class="content">
                         <h1>{{ page.title }}</h1>
                         {% if page.description %}
@@ -70,24 +37,37 @@
                     </div>
 
                     <div class="chunk-nav">
+                        {% assign nav_structure = site.data.navigation %}
                         {% assign flat_nav = '' | split: '' %}
-                        {% for item in site.navigation %}
-                            {% assign flat_nav = flat_nav | push: item %}
-                            {% if item.subnav %}
-                                {% for subitem in item.subnav %}
-                                    {% assign flat_nav = flat_nav | push: subitem %}
-                                {% endfor %}
-                            {% endif %}
-                        {% endfor %}
+
+                        {% if nav_structure.home %}
+                            {% assign flat_nav = flat_nav | push: nav_structure.home %}
+                        {% endif %}
+
+                        {% if nav_structure.featured %}
+                            {% for feature in nav_structure.featured %}
+                                {% assign flat_nav = flat_nav | push: feature %}
+                            {% endfor %}
+                        {% endif %}
+
+                        {% if nav_structure.steps %}
+                            {% for step in nav_structure.steps %}
+                                {% assign flat_nav = flat_nav | push: step %}
+                                {% if step.substeps %}
+                                    {% for subitem in step.substeps %}
+                                        {% assign flat_nav = flat_nav | push: subitem %}
+                                    {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
 
                         {% assign prev_page = nil %}
                         {% assign next_page = nil %}
                         {% assign current_index = nil %}
-                        {% assign normalized_page_url = page.url | relative_url %}
+                        {% assign normalized_page_url = page.url %}
 
                         {% for nav_item in flat_nav %}
-                            {% assign normalized_nav_url = nav_item.url | relative_url %}
-                            {% if normalized_nav_url == normalized_page_url %}
+                            {% if nav_item.url and nav_item.url == normalized_page_url %}
                                 {% assign current_index = forloop.index0 %}
                                 {% break %}
                             {% endif %}
@@ -105,10 +85,10 @@
                         {% endif %}
 
                         {% if prev_page %}
-                        <a href="{{ prev_page.url | relative_url }}">← Previous: {% include derived_nav_title.html url=prev_page.url %}</a>
+                        <a href="{{ base_path }}{{ prev_page.url }}">← Previous: {{ prev_page.title | default: 'Previous' }}</a>
                         {% endif %}
                         {% if next_page %}
-                        <a href="{{ next_page.url | relative_url }}">Next: {% include derived_nav_title.html url=next_page.url %} →</a>
+                        <a href="{{ base_path }}{{ next_page.url }}">Next: {{ next_page.title | default: 'Next' }} →</a>
                         {% endif %}
                     </div>
 
@@ -123,41 +103,6 @@
         </div>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuToggle = document.querySelector('.mobile-menu-toggle');
-            const sidebar = document.querySelector('.sidebar');
-            const overlay = document.createElement('div');
-            overlay.className = 'mobile-overlay';
-            document.body.appendChild(overlay);
-
-            function toggleMenu() {
-                sidebar.classList.toggle('active');
-                menuToggle.classList.toggle('active');
-                overlay.classList.toggle('active');
-                document.body.style.overflow = sidebar.classList.contains('active') ? 'hidden' : '';
-            }
-
-            menuToggle.addEventListener('click', toggleMenu);
-            overlay.addEventListener('click', toggleMenu);
-
-            // Close menu when clicking outside on mobile
-            document.addEventListener('click', function(e) {
-                if (window.innerWidth <= 768 &&
-                    !sidebar.contains(e.target) &&
-                    !menuToggle.contains(e.target) &&
-                    sidebar.classList.contains('active')) {
-                    toggleMenu();
-                }
-            });
-
-            // Handle window resize
-            window.addEventListener('resize', function() {
-                if (window.innerWidth > 768 && sidebar.classList.contains('active')) {
-                    toggleMenu();
-                }
-            });
-        });
-    </script>
+    {% include sidebar-scripts.html %}
 </body>
 </html>

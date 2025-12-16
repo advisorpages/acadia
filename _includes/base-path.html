@@ -1,0 +1,9 @@
+{% assign computed_base = site.baseurl %}
+{% if computed_base == nil or computed_base == '' %}
+  {% if site.github and site.github.baseurl %}
+    {% assign computed_base = site.github.baseurl %}
+  {% else %}
+    {% assign computed_base = '' %}
+  {% endif %}
+{% endif %}
+{{ computed_base }}

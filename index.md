@@ -1,40 +1,20 @@
 ---
 layout: default
-title: "Presentation Skills Training Framework"
+title: "Coffee Presentation Framework"
 ---
 
-## Presentation Skills Framework
+{% capture base_path %}{% include base-path.html %}{% endcapture %}
+{% assign base_path = base_path | strip %}
 
-**Objective**: Guide you through delivering a simple, duplicatable presentation that piques interest, gets them a plan, and recruits them onto the team.
+## Coffee Presentation Framework
 
-This presentation framework is designed to guide you through delivering a simple, duplicatable presentation broken up into digestible parts. The goal is to **pique interest**, **get them a plan**, and **recruit them onto the team**.
+**Objective**: Guide you through delivering a simple, duplicatable coffee presentation that piques interest, gets them a plan, and recruits them onto the team.
 
-<div style="position:relative;height:0;padding-bottom:56.25%;margin-bottom:20px;background:#000;border-radius:8px;overflow:hidden;">
-  <iframe
-    src="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212?autoplay=false&preload=true"
-    style="border:none;position:absolute;top:0;left:0;height:100%;width:100%;border-radius:8px;"
-    allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
-    allowfullscreen="true"
-    id="bunny-iframe"
-    frameborder="0"
-    scrolling="no"
-  ></iframe>
-  <!-- Fallback message for debugging -->
-  <div id="video-fallback" style="display:none;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:white;text-align:center;padding:20px;">
-    <p>📹 Video loading...</p>
-    <p style="font-size:14px;opacity:0.7;">If video doesn't load, <a href="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212" target="_blank" style="color:#4fc3f7;">watch here</a></p>
-  </div>
-</div>
+This coffee presentation framework is designed to guide you through delivering a simple, duplicatable presentation broken up into digestible parts. The goal is to **pique interest**, **get them a plan**, and **recruit them onto the team**.
 
-<!-- Custom Chapters UI -->
-<div id="chapters-container" style="margin-top:20px;padding:20px;background:#f8f9fa;border-radius:8px;border:1px solid #e9ecef;">
-  <h4 style="margin:0 0 15px 0;color:#495057;font-size:18px;font-weight:600;">📚 Video Chapters</h4>
-  <div id="chapters-list">
-    <!-- Chapters will be populated by JavaScript -->
-  </div>
-</div>
+> 💡 **Watch the full presentation video**: See [The Presentation]({{ base_path }}/the-presentation/) for a complete video walkthrough with interactive chapters.
 
-## Presentation Goals
+## Coffee Presentation Goals
 
 ### Primary Objectives
 - **Pique Interest**: Capture their attention and show the value of financial planning
@@ -44,73 +24,73 @@ This presentation framework is designed to guide you through delivering a simple
 ### Key Strategy
 It's possible to sign them up immediately, but if you're not confident, default to introducing them to the team. This approach builds trust and creates multiple pathways for engagement.
 
-## Presentation Framework
+## Coffee Presentation Framework
 
-This is a **casual 30-minute presentation** structured into clear, sequential sections:
+This is a **casual 30-minute coffee presentation** structured into clear, sequential sections:
 
-### 1. [Breaking the Ice]({{ '/01-breaking-the-ice/' | relative_url }})
+### 1. [Breaking the Ice]({{ base_path }}/01-breaking-the-ice/)
 *Building rapport and setting expectations*
 - Establish that this isn't a sales meeting
 - Explain your purpose (opening office, community connection)
 - Set low-pressure expectations
 
-### 2. [Get to Know Them]({{ '/02-get-to-know-them/' | relative_url }})
+### 2. [Get to Know Them]({{ base_path }}/02-get-to-know-them/)
 *Discovery and understanding*
 - Learn about their family, career, and goals
 - Identify pain points and desires
 - Build personal connection
 
-### 3. [Set Expectations]({{ '/03-set-expectations/' | relative_url }})
+### 3. [Set Expectations]({{ base_path }}/03-set-expectations/)
 *Clear framework for possible outcomes*
 - Three possible paths: introductions, team building, or financial assessment
 - No pressure approach
 - Flexible engagement options
 
-### 4. [The Financial House]({{ '/04-the-financial-house/' | relative_url }})
+### 4. [The Financial House]({{ base_path }}/04-the-financial-house/)
 *Core concept introduction*
 - Foundation: Income protection
 - Basics: Emergency fund, budget, legal documents
 - Structure: Debt management, retirement, education
 - Roof: Goals and dreams
 
-### 5. [Problems with the House]({{ '/05-problems-with-the-house/' | relative_url }})
+### 5. [Problems with the House]({{ base_path }}/05-problems-with-the-house/)
 *Identifying common issues*
 - Scattered finances across multiple companies
 - No written plan
 - Insurance gaps and missed opportunities
 - The two biggest problems explained
 
-### 6. [30-Second Personal Story]({{ '/06-30-sec-personal-story/' | relative_url }})
+### 6. [30-Second Personal Story]({{ base_path }}/06-30-sec-personal-story/)
 *Building credibility and connection*
 - Your background and motivation
 - How you got into the business
 - Personal journey and results
 
-### 7. [How We Get Paid]({{ '/07-how-we-get-paid/' | relative_url }})
+### 7. [How We Get Paid]({{ base_path }}/07-how-we-get-paid/)
 *Transparent compensation model*
 - Volume-based earning structure
 - Realistic income expectations ($600-$1,500 per client)
 - Time efficiency (4-6 hours per client)
 
-### 8. [Closing Questions]({{ '/08-closing-questions/' | relative_url }})
+### 8. [Closing Questions]({{ base_path }}/08-closing-questions/)
 *Determining next steps*
 - Identify their primary interest
 - Guide toward appropriate action
 - Qualify for plan or team opportunity
 
-### 9. [Getting a Plan]({{ '/08a-get-a-plan/' | relative_url }})
+### 9. [Getting a Plan]({{ base_path }}/08a-get-a-plan/)
 *Working with interested clients*
 - Collect current financial information
 - Set follow-up appointment
 - Prepare comprehensive financial plan
 
-### 10. [Making Extra Money]({{ '/08b-make-extra-money/' | relative_url }})
+### 10. [Making Extra Money]({{ base_path }}/08b-make-extra-money/)
 *Team recruitment presentation*
 - Passive income opportunities
 - 5-year income projections
 - Business model overview
 
-## How to Use This Framework
+## How to Use This Coffee Presentation Framework
 
 ### Presentation Flow
 1. **Start casually** - No pressure, just getting to know people
@@ -139,7 +119,7 @@ Navigate through each section in order to understand the complete framework, or 
 
 ## Complete Script
 
-For the full presentation script with all sections combined for easy reference during client meetings, view the **[Complete Presentation Script]({{ '/archive/complete-script/' | relative_url }})**.
+For the full presentation script with all sections combined for easy reference during client meetings, view the **[Complete Presentation Script]({{ base_path }}/archive/complete-script/)**.
 
 This complete script includes:
 - Full dialogue and conversation examples

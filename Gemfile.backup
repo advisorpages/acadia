@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+# Simple Jekyll setup for local development
+gem "jekyll", "~> 3.9.0"
+gem "kramdown", "~> 1.17"
+gem "rouge", "~> 1.10"
+
+# Live reload support
+gem "jekyll-livereload"
