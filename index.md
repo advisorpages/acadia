@@ -29,13 +29,15 @@ This presentation framework is designed to guide you through delivering a simple
 <!-- Custom Chapters UI -->
 <div id="chapters-container" style="margin-top:20px;padding:20px;background:#f8f9fa;border-radius:8px;border:1px solid #e9ecef;">
   <h4 style="margin:0 0 15px 0;color:#495057;font-size:18px;font-weight:600;">📚 Video Chapters</h4>
-  <div id="chapters-list" style="display:grid;gap:8px;">
+  <div id="chapters-list">
     <!-- Chapters will be populated by JavaScript -->
   </div>
 </div>
 
+<script src="https://assets.mediadelivery.net/playerjs/playerjs-latest.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+    const bunnyIframe = document.getElementById('bunny-iframe');
     const chapters = [
         { time: 0, title: "Break the Ice", duration: "0:36" },
         { time: 36, title: "Get to Know Them", duration: "1:20" },
@@ -53,88 +55,150 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const chaptersList = document.getElementById('chapters-list');
     const fallback = document.getElementById('video-fallback');
+    const chapterEntries = [];
+    let bunnyPlayer = null;
+    let playerReady = false;
+    let pendingSeek = null;
+    let trackingViaEvents = false;
+    let timePollInterval = null;
+    let activeChapterIndex = null;
 
     // Create chapter elements
     chapters.forEach((chapter, index) => {
         const chapterElement = document.createElement('div');
-        chapterElement.style.cssText = `
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 16px;
-            background: white;
-            border: 1px solid #dee2e6;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            position: relative;
-        `;
+        chapterElement.className = 'chapter-item';
+        chapterElement.dataset.index = index;
 
         chapterElement.innerHTML = `
-            <div style="display: flex; align-items: center; gap:12px;">
-                <span style="background:#007bff;color:white;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;">${index + 1}</span>
-                <span style="font-weight:500;color:#495057;">${chapter.title}</span>
+            <div class="chapter-label">
+                <span class="chapter-index">${index + 1}</span>
+                <span class="chapter-title">${chapter.title}</span>
             </div>
-            <span style="color:#6c757d;font-size:14px;">${chapter.duration}</span>
+            <span class="chapter-duration">${chapter.duration}</span>
         `;
 
-        chapterElement.addEventListener('mouseenter', function() {
-            this.style.background = '#f8f9fa';
-            this.style.borderColor = '#007bff';
-            this.style.transform = 'translateY(-1px)';
-            this.style.boxShadow = '0 2px 8px rgba(0,123,255,0.1)';
-        });
-
-        chapterElement.addEventListener('mouseleave', function() {
-            this.style.background = 'white';
-            this.style.borderColor = '#dee2e6';
-            this.style.transform = 'translateY(0)';
-            this.style.boxShadow = 'none';
-        });
-
         chapterElement.addEventListener('click', function() {
-            seekToChapter(chapter.time);
-
-            // Update active state
-            document.querySelectorAll('#chapters-list > div').forEach(el => {
-                el.style.background = 'white';
-                el.style.borderColor = '#dee2e6';
-            });
-            this.style.background = '#e3f2fd';
-            this.style.borderColor = '#007bff';
+            jumpToChapter(chapter.time, index);
         });
 
         chaptersList.appendChild(chapterElement);
+
+        chapterEntries.push({
+            element: chapterElement,
+            start: chapter.time,
+            end: index < chapters.length - 1 ? chapters[index + 1].time : Infinity
+        });
     });
 
-    function seekToChapter(seconds) {
-        const iframe = document.getElementById('bunny-iframe');
-        if (iframe && iframe.contentWindow) {
-            try {
-                // Send postMessage to seek to specific time
-                iframe.contentWindow.postMessage({
-                    method: 'setCurrentTime',
-                    value: seconds
-                }, '*');
+    if (chapterEntries.length > 0) {
+        setActiveChapter(0);
+    }
 
-                // Also try to play if paused
-                iframe.contentWindow.postMessage({
-                    method: 'play'
-                }, '*');
-            } catch (error) {
-                console.log('Seek command failed:', error);
-                // Fallback: reload iframe with time parameter
-                const currentSrc = iframe.src;
-                const newSrc = currentSrc.includes('?')
-                    ? currentSrc.split('?')[0] + `?t=${seconds}&autoplay=true`
-                    : currentSrc + `?t=${seconds}&autoplay=true`;
-                iframe.src = newSrc;
-            }
+    function setActiveChapter(index) {
+        if (index === activeChapterIndex) {
+            return;
+        }
+        if (activeChapterIndex !== null && chapterEntries[activeChapterIndex]) {
+            chapterEntries[activeChapterIndex].element.classList.remove('is-active');
+        }
+        activeChapterIndex = typeof index === 'number' ? index : null;
+        if (activeChapterIndex !== null && chapterEntries[activeChapterIndex]) {
+            chapterEntries[activeChapterIndex].element.classList.add('is-active');
         }
     }
 
+    function highlightChapterAtTime(seconds) {
+        const currentTime = parseFloat(seconds);
+        if (Number.isNaN(currentTime)) {
+            return;
+        }
+
+        let targetIndex = null;
+        for (let i = 0; i < chapterEntries.length; i++) {
+            const entry = chapterEntries[i];
+            if (currentTime >= entry.start && currentTime < entry.end) {
+                targetIndex = i;
+                break;
+            }
+        }
+
+        if (targetIndex === null && currentTime >= chapters[chapters.length - 1].time) {
+            targetIndex = chapterEntries.length - 1;
+        }
+
+        if (targetIndex !== null) {
+            setActiveChapter(targetIndex);
+        }
+    }
+
+    function playerSupports(type, name) {
+        return bunnyPlayer && typeof bunnyPlayer.supports === 'function' && bunnyPlayer.supports(type, name);
+    }
+
+    function initializePlayer() {
+        if (!bunnyIframe || !window.playerjs) {
+            return;
+        }
+        bunnyPlayer = new window.playerjs.Player(bunnyIframe);
+        bunnyPlayer.on('ready', function() {
+            playerReady = true;
+            beginChapterTracking();
+            if (pendingSeek !== null) {
+                const { seconds, chapterIndex } = pendingSeek;
+                pendingSeek = null;
+                jumpToChapter(seconds, chapterIndex);
+            }
+        });
+    }
+
+    function beginChapterTracking() {
+        if (!bunnyPlayer || !playerReady) return;
+
+        if (!trackingViaEvents && playerSupports('event', 'timeupdate')) {
+            trackingViaEvents = true;
+            bunnyPlayer.on('timeupdate', function(data) {
+                const value = typeof data === 'number'
+                    ? data
+                    : (data && typeof data.seconds !== 'undefined' ? data.seconds : data);
+                highlightChapterAtTime(value);
+            });
+        } else if (!timePollInterval && playerSupports('method', 'getCurrentTime')) {
+            timePollInterval = setInterval(() => {
+                bunnyPlayer.getCurrentTime(function(value) {
+                    highlightChapterAtTime(value);
+                });
+            }, 1000);
+        }
+    }
+
+    function jumpToChapter(seconds, chapterIndex) {
+        if (typeof chapterIndex === 'number') {
+            setActiveChapter(chapterIndex);
+        }
+
+        if (playerSupports('method', 'setCurrentTime') && playerReady) {
+            bunnyPlayer.setCurrentTime(seconds);
+            if (playerSupports('method', 'play')) {
+                bunnyPlayer.play();
+            }
+        } else if (bunnyPlayer && !playerReady) {
+            pendingSeek = { seconds, chapterIndex };
+        } else {
+            reloadIframeToTime(seconds);
+        }
+    }
+
+    function reloadIframeToTime(seconds) {
+        if (!bunnyIframe) return;
+        const baseSrc = bunnyIframe.dataset.originalSrc || bunnyIframe.src;
+        bunnyIframe.dataset.originalSrc = baseSrc;
+        const cleanSrc = baseSrc.split('?')[0];
+        bunnyIframe.src = `${cleanSrc}?t=${seconds}&autoplay=true`;
+    }
+
+    initializePlayer();
+
     // Enhanced video loading detection
-    const iframe = document.getElementById('bunny-iframe');
     let loadTimeout;
 
     function showFallback() {
@@ -148,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Start loading detection
     loadTimeout = setTimeout(showFallback, 5000);
 
-    iframe.addEventListener('load', function() {
+    bunnyIframe.addEventListener('load', function() {
         clearTimeout(loadTimeout);
         console.log('Video player loaded successfully');
         hideFallback();
@@ -156,7 +220,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Try to verify iframe content loaded
         setTimeout(() => {
             try {
-                if (iframe.contentWindow) {
+                if (bunnyIframe.contentWindow) {
                     // If we can access contentWindow, it's likely loaded
                     console.log('Video content accessible');
                 }
@@ -166,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 1000);
     });
 
-    iframe.addEventListener('error', function() {
+    bunnyIframe.addEventListener('error', function() {
         clearTimeout(loadTimeout);
         console.error('Failed to load video player');
         showFallback();
@@ -175,11 +239,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Monitor iframe loading state
     setTimeout(() => {
-        if (iframe.complete !== false) {
+        if (bunnyIframe.complete !== false) {
             clearTimeout(loadTimeout);
             hideFallback();
         }
     }, 3000);
+
+    window.addEventListener('beforeunload', function() {
+        if (timePollInterval) {
+            clearInterval(timePollInterval);
+        }
+    });
 });
 </script>
 
@@ -188,18 +258,77 @@ document.addEventListener("DOMContentLoaded", function() {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
+#chapters-list {
+    display: grid;
+    gap: 8px;
+}
+
+.chapter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.chapter-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.chapter-index {
+    background: #007bff;
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.chapter-duration {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.chapter-item:hover {
+    background: #f8f9fa;
+    border-color: #007bff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+
+.chapter-item.is-active {
+    background: #e3f2fd;
+    border-color: #007bff;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.15);
+}
+
+.chapter-item.is-active:hover {
+    background: #e3f2fd;
+}
+
 @media (max-width: 768px) {
     #chapters-container {
         padding: 15px;
         margin-top: 15px;
     }
 
-    #chapters-list > div {
+    .chapter-item {
         padding: 10px 12px !important;
         font-size: 14px;
     }
 
-    #chapters-list > div span:first-child {
+    .chapter-index {
         width: 24px !important;
         height: 24px !important;
         font-size: 11px !important;
