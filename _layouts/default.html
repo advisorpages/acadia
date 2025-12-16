@@ -23,14 +23,14 @@
                     <li{% if item.subnav %} class="has-submenu"{% endif %}>
                         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
                             <span class="nav-step">{{ nav_step_label }}</span>
-                            <span class="nav-title">{{ item.title }}</span>
+                            <span class="nav-title">{% include derived_nav_title.html url=item.url %}</span>
                         </a>
                         {% if item.subnav %}
                         <ul class="submenu">
                             {% for subitem in item.subnav %}
                             <li>
                                 <a href="{{ subitem.url | relative_url }}"{% if page.url == subitem.url %} class="active"{% endif %}>
-                                    <span class="nav-title">{{ subitem.title }}</span>
+                                    <span class="nav-title">{% include derived_nav_title.html url=subitem.url %}</span>
                                 </a>
                             </li>
                             {% endfor %}

@@ -1,0 +1,45 @@
+{%- assign nav_url = include.url | default: '/' -%}
+{%- assign slug = nav_url -%}
+{%- if slug == '/' or slug == '' -%}
+  {%- assign slug = 'index' -%}
+{%- else -%}
+  {%- assign slug = slug | replace: '/', '' -%}
+{%- endif -%}
+
+{%- assign original_slug = slug -%}
+{%- assign normalized_slug = slug -%}
+
+{%- if normalized_slug contains '-' -%}
+  {%- assign prefix = normalized_slug | split: '-' | first -%}
+  {%- assign prefix_stripped = prefix
+    | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4'
+    | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' -%}
+  {%- if prefix != prefix_stripped -%}
+    {%- assign normalized_slug = normalized_slug | remove_first: prefix -%}
+    {%- assign normalized_slug = normalized_slug | remove_first: '-' -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign normalized_slug = normalized_slug | strip -%}
+{%- if normalized_slug == '' -%}
+  {%- assign normalized_slug = original_slug -%}
+{%- endif -%}
+
+{%- assign normalized_slug = normalized_slug | replace: '-', ' ' | replace: '_', ' ' -%}
+{%- assign words = normalized_slug | split: ' ' -%}
+{%- assign built_title = '' -%}
+{%- assign first_word_written = false -%}
+
+{%- for word in words -%}
+  {%- assign clean = word | strip -%}
+  {%- if clean != '' -%}
+    {%- if first_word_written -%}
+      {%- assign built_title = built_title | append: ' ' -%}
+    {%- endif -%}
+    {%- assign word_capitalized = clean | downcase | capitalize -%}
+    {%- assign built_title = built_title | append: word_capitalized -%}
+    {%- assign first_word_written = true -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{{ built_title | strip | default: 'Page' }}
