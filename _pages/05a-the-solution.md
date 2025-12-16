@@ -1,122 +1,30 @@
 ---
 layout: chunk
-title: "How I Fix the House"
-
+title: "The Solution"
+description: "Presenting the solution to scattered finances and lack of written planning"
 ---
 
-**Objective**: Explain how everything gets organized and improved with one clear plan.
+There are two big problems with this that aren't obvious.
 
-<div class="dialogue-container">
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">There are two big problems with this that aren't obvious.</div>
-</div>
+## Problem 1: Scattered Finances
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">First problem — their finances are scattered over eight different companies.</div>
-</div>
+First problem, their finances are scattered over eight different companies, like each company has a different agent with their own agenda. A life insurance agent wants to sell you the biggest policy possible. The bank wants to increase your credit limit. No one is looking at the full picture. It's really hard to get your finances in order when the left arm doesn't know what the right arm is doing.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Each company has a different agent with their own agenda.</div>
-</div>
+## Problem 2: No Written Plan
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">A life insurance agent wants to sell you the biggest policy possible.</div>
-</div>
+Second problem, there's no written plan. In all the years you've been with your bank, how many times have you been offered a written plan to help you pay off debt, improve your investments, and save money on insurance?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">The bank wants to increase your credit limit.</div>
-</div>
+> Not a chance. They never do that!
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">No one is looking at the full picture.</div>
-</div>
+## Our Solution
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">It's really hard to get your finances in order when the left arm doesn't know what the right arm is doing.</div>
-</div>
+Exactly. So here's what my team and I can do for the people you refer to me. By putting together a plan, typically I can:
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Second problem — there's no written plan.</div>
-</div>
+- Cut their insurance costs in half
+- Put a will and power of attorney in their hands for about $200
+- Get them completely out of debt with a mortgage in 20 years
+- Improve their investment returns, averaging roughly 6% to 9% in the long term
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">In all the years you've been with your bank, how many times have you been offered a written plan to help you pay off debt, improve your investments, and save money on insurance?</div>
-</div>
+All the savings we find get redirected into their goals and dreams, like vacations or family experiences with the people you recommend to me. Do you think they would be upset if I was able to do this for them?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Oh my goodness. They never do that.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Exactly.</div>
-</div>
-
-<h2 class="subheading">The Solution</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">So here's what my team and I can do for the people you refer to me by putting together a plan.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Typically, I can cut their insurance costs in half.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Put a will and power of attorney in their hands for about two hundred dollars.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Get them completely out of debt with a mortgage in twenty years.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">And improve their investment returns — averaging roughly six to nine percent in the long term.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">All the savings we find get redirected into their goals and dreams — like vacations or family experiences.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">With the people you refer, would they be upset if I was able to do this for them?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Of course not.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">So basically, that's what my team and I do.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">We fix most people's money problems by looking at the big picture and creating a custom plan using tools our head office provides — completely free for our clients.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Pretty simple.</div>
-</div>
-
-</div>
+> Of course not.

@@ -1,87 +1,33 @@
 ---
 layout: chunk
 title: "Getting to Know You"
+description: "Discovery and understanding phase - learning about their family, career, and goals"
 ---
 
-**Objective**: Use the **[Client Survey](https://advisorpages.github.io/acadia/client-survey.html)** as a guide to learn more about what's important to your prospect. Their family, time, stress, and money concerns.
+Before we dive in, tell me a bit about yourself. What do you do for work exactly?
 
-<div class="dialogue-container">
-  <div class="dialogue-row">
-    <div class="speaker-column narrator">Narrator:</div>
-    <div class="dialogue-column">Use the Client Survey as a guide to learn more about what's important to your prospect. Their family, time, stress, and money concerns. There's a lot of questions on there - make sure to pick the ones that are most relevant to your prospect. Don't go over all the questions because it might start to feel like an interrogation. Do just enough to get a good sense of their situation.</div>
-  </div>
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">Before we dive in… tell me a bit about yourself.</div>
-  </div>
+> I'm a nurse at a Toronto General Hospital. I've been doing that for ten years now.
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">What do you do for work?</div>
-  </div>
+What do you like most about your current career?
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">I'm a nurse at a Toronto General hospital. I've been doing that for 10 years now.</div>
-  </div>
+> I like that the work actually matters. I'm helping people and there's a real sense of purpose to it.
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">What do you like most about your current career?</div>
-  </div>
+If you had a magic wand and could change anything about it, what would you change it?
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">I like that the work actually matters. I'm helping people, and there's a real sense of purpose to it.</div>
-  </div>
+> Definitely the hours and the shifts can be long and unpredictable. And we're so understaffed that we can never get enough help. Honestly, I'd want more life balance so I can spend more time with the family.
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">If you had a magic wand and could change anything about it, what would you change?</div>
-  </div>
+Do you have any kids? How old are they?
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">Definitely the hours. The shifts can be long and unpredictable and we're so understaffed that we can never get enough help. Honestly, I'd want more life balance so I can spend more time with the family.</div>
-  </div>
+> Yes, three kids. They're ten, seven and five years old.
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">Do you have any kids? How old are they?</div>
-  </div>
+That's great. You must have your hands full. If time and money were no issue at all. What would you and your family do differently? What would that kind of freedom look like for you?
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">Yes — three kids. They're ten, seven, and five years old.</div>
-  </div>
+> I think I'd slow things down a bit. Spend more time together without worrying about schedules or money. Travel more. Be more present. And feel confident that our kids future is taken care of.
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">That's great. You must have your hands full. If time and money were no issue at all… what would you and your family do differently?<br>What would that kind of freedom look like for you?</div>
-  </div>
+I understand. When do you see your current career allowing you to accomplish those kinds of things?
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">I think I'd slow things down a bit. Spend more time together without worrying about schedules or money.<br>Travel more, be more present, and feel confident that our kids' future is taken care of.</div>
-  </div>
+> Honestly, not any time soon. At least not on its own.
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">I understand. When do you see your current career allowing you to accomplish those kinds of things?</div>
-  </div>
+Do you have someone right now who handles your financial planning other than yourselves?
 
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">Honestly, not anytime soon — at least not on its own.</div>
-  </div>
-
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-1">Speaker 1:</div>
-    <div class="dialogue-column">Do you have someone right now who handles your financial planning, other than yourselves?</div>
-  </div>
-
-  <div class="dialogue-row">
-    <div class="speaker-column speaker-2">Speaker 2:</div>
-    <div class="dialogue-column">No. We mostly handle things on our own, but we don't really have a clear plan.</div>
-  </div>
-</div>
+> No. We mostly handle things on our own, but we don't really have a clear plan.

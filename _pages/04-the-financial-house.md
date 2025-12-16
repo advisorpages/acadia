@@ -1,90 +1,29 @@
 ---
 layout: chunk
 title: "The Financial House"
-
+description: "Core concept introduction - the financial house structure and its components"
 ---
 
-**Objective**: Show them a simple way to look at their money as one complete picture.
+From a client side, what I do is really simple. I help people organize their money into one clear structure that's easy to understand and follow. The easiest way to look at it is like a financial house, just like a real house—every part has a purpose and some parts matter more than others. You'd agree the foundation is the most important part, right?
 
-<div class="dialogue-container">
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">One thing I notice with most people is that their money is kind of spread out everywhere. Different banks. Different accounts. Different advice.</div>
-</div>
+> Yeah, for sure.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">So what I do is pretty simple. I help people organize everything into one clear structure that's easy to understand and follow.</div>
-</div>
+## Foundation: Income Protection
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">The easiest way to picture it is like a house. I call it a financial house.</div>
-</div>
+In your finances, that foundation is protecting your income. Because if your income suddenly disappears, the last thing your family is thinking about is how to save for retirement. They're more concerned about how to pay the mortgage and put food on the table. That's why financial experts all agree that life insurance or income protection is the foundation of the house.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Just like a real house, every part has a purpose. And some parts matter more than others.</div>
-</div>
+## Basics: Emergency Fund and Legal Documents
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">You'd agree the foundation is the most important part, right?</div>
-</div>
+The next level is an emergency fund, budget, will and power of attorney. These are often forgotten, but really important because these are things that keep everything stable when life throws a surprise.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Yeah, for sure.</div>
-</div>
+## Structure: Wealth Building
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">In your finances, that foundation is protecting income. Because if income disappears, everything else stops mattering.</div>
-</div>
+After that, we focus on getting rid of debt and planning for retirement and kids education.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">In that moment, people aren't thinking about retirement or long-term plans. They're thinking, “How do we pay the mortgage?”</div>
-</div>
+## Roof: Goals and Dreams
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That's why income protection is the foundation of the house.</div>
-</div>
+And at the very top, the roof of the house—are your goals and dreams. These are fun things like trips, freedom and more time because there really has to be more to life than just paying bills.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">The next level is the basics.</div>
-</div>
+Has anyone explained structuring your finances like this before?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Emergency fund. Simple budget. Will and power of attorney.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">These are the things that keep everything stable when life throws a surprise.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">After that, we focus on getting rid of debt, and planning for retirement and kids' education.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">And at the very top — the roof of the house — are your goals and dreams.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Trips. Freedom. Time.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Because there really has to be more to life than just paying bills.</div>
-</div>
-
-</div>
+> Kind of, but not exactly the same way you just did.

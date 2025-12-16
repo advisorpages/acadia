@@ -1,162 +1,55 @@
 ---
 layout: chunk
-title: "Problems With The House"
-
+title: "Problems with the House"
+description: "Identifying common issues with scattered finances and the traditional approach"
 ---
 
-**Objective**: Point out the common gaps and mistakes most families don't realize they have.
+If you look at this, you're probably thinking that every bank and financial advisor in Canada does this. How is this any different and why would anyone want to pick me? It's not obvious, but there's a bunch of problems with this house. Let me give you a few examples.
 
-<div class="dialogue-container">
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">If you look at this, you're probably thinking that every bank and financial advisor in Canada does this. Why would anyone want to pick me and my team?</div>
-</div>
+## Example: The Insurance Problem
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">It's not obvious, but there's a bunch of problems with this house.</div>
-</div>
+Let's take a real example. We have a family paying $300 a month to Industrial Alliance.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Let me give you a few examples.</div>
-</div>
+That is a serious amount of money. But here is the problem. Like almost everyone we meet, they don't actually know what they bought. They are paying all that cash, but they have very little coverage. It's not even enough to pay off the mortgage, let alone leave money for the kids. The sad truth is most people own the wrong type of insurance with the wrong beneficiaries.
 
-<h2 class="subheading">Insurance Gaps</h2>
+Why? Because they were sold a policy by an agent who cared more about a commission cheque than what was right for the family.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Let's say this family has life insurance paying $300 per month. Experts suggest having coverage that's at least ten times your annual income.</div>
-</div>
+## The Emergency Fund Problem
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">However, many families don't even have enough life insurance to pay off their mortgage if something were to happen to them.</div>
-</div>
+When it comes to an emergency fund and budgeting, this family is left to figure it out on their own. And as a result, they never get around to it. This is really important because their house suddenly needed a $9,000 roof replacement.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">When it comes to an emergency fund and budgeting, this family is left to figure it out on their own. And as a result, they never get around to it.</div>
-</div>
+Where would they find the money?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">This is really important because if their house suddenly needed a $9,000 roof replacement, where would they find the money?</div>
-</div>
+> Probably from a credit card.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Probably from a credit card.</div>
-</div>
+That's right. Or maybe a line of credit. Having an emergency fund in a written budget actually helps you stay out of debt.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That's right. Or maybe a line of credit.</div>
-</div>
+## The Legal Documents Problem
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Having an emergency fund and a written budget actually helps you stay out of debt.</div>
-</div>
+When it comes to a will, we all go to a lawyer to get one made. Most people agree it's important to have one, but very few actually do because it costs around $1,000 to get one made on this level.
 
-<h2 class="subheading">Missing Legal Documents</h2>
+## The Debt Freedom Problem
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">When it comes to a will, we all go to a lawyer to get one made.</div>
-</div>
+Let's say they have a mortgage and line of credit with TD Bank plus credit cards with Capital One. Most families don't know their debt freedom date—the exact date they'll be completely out of debt. They often assume it will be when the mortgage is paid off in 25 years. But they forget about the loans, lines of credit and credit cards.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Most people agree it's important to have one, but very few actually do — because it costs around $1,000 to get one made on this level.</div>
-</div>
+The worst part is that no one wants to help with paying off debt instead, and everyone is focused on increasing your credit limit.
 
-<h2 class="subheading">Debt Without an End Date</h2>
+## The Investment Problem
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Let's say they have a mortgage and line of credit with TD Bank, plus credit cards with Capital One and Amex.</div>
-</div>
+On the retirement side, they've put money into RRSPs and TFSAs with TD wealth and they're part of a group pension with Manulife. But the problem is they're not really sure about their investment performance or what exactly they own.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Most families don't know their debt freedom date — the exact date they'll be completely out of debt.</div>
-</div>
+They're left to figure it out alone, thinking they're doing fine with a 3% to 5% return when they could actually be doing a lot better.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">They often assume it will be when the mortgage is paid off in 25 years. But they forget about the loans, lines of credit, and credit cards.</div>
-</div>
+## The Education Savings Problem
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">The worst part is that no one wants to help with paying off debt.</div>
-</div>
+For their kids education, they have an account with RBC. Sadly, many families aren't getting help from government grants and bonds that are meant for education. It's not because they can't get it. It's because they don't know about it.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Instead, everyone is focused on increasing your credit limit.</div>
-</div>
+Instead, they're putting their money in a regular savings account when they could be getting free money.
 
-<h2 class="subheading">Investment Confusion</h2>
+## The Goals and Dreams Problem
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">On the retirement side, they've put money into RRSPs and TFSAs with TD Wealth, and they're part of a group pension with Manulife.</div>
-</div>
+And the last part of the house is the roof—the goals and dreams that we find. Almost every family we meet with is so overwhelmed with the rest of their financial house that they skip goals like annual family trips or starting a business they've always dreamed of.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">But the problem is they're not really sure about their investment performance or what exactly they own.</div>
-</div>
+Like I said earlier, there has to be more to life than just paying the bills, right?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">They're left to figure it out alone — thinking they're doing fine with a three to five percent return — when they could actually be doing a lot better.</div>
-</div>
-
-<h2 class="subheading">Missed Opportunities</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">For their kids' education, they have an account with RBC.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Sadly, many families aren't getting help from government grants and bonds that are meant for education.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">It's not because they can't get it — it's because they don't know about it.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Instead, they're putting their money in a regular savings account when they could be getting free money.</div>
-</div>
-
-<h2 class="subheading">Skipping Goals and Dreams</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">And the last part of the house is the roof — the goals and dreams.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">We find almost every family we meet with is so overwhelmed with the rest of their financial house that they skip goals like annual family trips, or starting a business they've always dreamed of.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Like I said earlier — there has to be more to life than just paying the bills, right?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Yes. I totally agree.</div>
-</div>
-
-</div>
+> Yes, I totally agree.

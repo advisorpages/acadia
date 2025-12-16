@@ -1,81 +1,28 @@
 ---
 layout: chunk
-title: "30 Second Personal Story"
-
+title: "30-Second Personal Story"
+description: "Building credibility and connection through your personal journey"
 ---
 
-**Objective**: Explain why you do this and how you saw it work in real life.
+Great. Again, I really appreciate it. For the next part, I want to share a bit about how we actually get paid. As I mentioned earlier, my goal is to open my own branch within the next 18 months. And I want you to understand the model clearly not as a pitch, but so you can explain it to others if it ever comes up.
 
-<div class="dialogue-container">
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">For the next part, I want to share a bit about how we actually get paid.</div>
-</div>
+## My Background
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">As I mentioned earlier, my goal is to open my own branch within the next eighteen months. I want you to understand the model clearly — not as a pitch — but so you can explain it to others if it ever comes up.</div>
-</div>
+Before I do that, though, let me quickly share how I got into this business, because I was definitely not interested in finance at first. I was a new graduate working in IT and around that time I started noticing how frustrated my parents were with their money. They had insurance they didn't fully understand. Their finances were scattered, and honestly, they were being taken advantage of without realizing it.
 
-<h2 class="subheading">My Background Before Finance</h2>
+## The Turning Point
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Before I do that though, let me quickly share how I got into this business, because I was definitely not interested in finance at first.</div>
-</div>
+A friend of mine offered to put together a proper financial plan for them—not to sell anything, just to organize everything. When I saw that plan, it really clicked. For the first time, my parents had clarity, structure and real peace of mind. They knew exactly where they stood and what they needed to do next.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">I was a new graduate working in IT, and around that time I started noticing how frustrated my parents were with their money.</div>
-</div>
+## Realizations
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">They had insurance they didn’t fully understand, their finances were scattered, and honestly, they were being taken advantage of without realizing it.</div>
-</div>
+That's when I realized two things:
 
-<h2 class="subheading">What Made Me Get Into Finance</h2>
+1. First, how powerful this kind of planning really is.
+2. Second, that helping people this way could also create a meaningful part-time income.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">A friend of mine offered to put together a proper financial plan for them — not to sell anything — just to organize everything.</div>
-</div>
+## Results
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">When I saw that plan, it really clicked.</div>
-</div>
+That income helped me start saving for my own home and eventually gave me a clear path to stop working altogether within about five years, simply by focusing on the investment side of the business.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">For the first time, my parents had clarity, structure, and real peace of mind. They knew exactly where they stood and what they needed to do next.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That’s when I realized two things.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">First — how powerful this kind of planning really is.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">And second — that helping people this way could also create a meaningful part-time income.</div>
-</div>
-
-<h2 class="subheading">My Goal for the Future</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That income helped me start saving for my own home, and eventually gave me a clear path to stop working altogether within about five years — simply by focusing on the investment side of the business.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">So with that context, let me walk you through, at a high level, how we get paid when we help a family across all areas of their financial house.</div>
-</div>
-
-</div>
+So with that context, let me walk you through at a high level how we get paid when we help a family across all areas of their financial house.

@@ -1,244 +1,55 @@
 ---
 layout: chunk
-title: "Response B: Making Extra Money"
-
+title: "Making Extra Money"
+description: "Team recruitment presentation and passive income opportunities"
 ---
 
-**Objective**: Show how helping families can also create part-time income over time.
+I really appreciate that.
 
-<div class="dialogue-container">
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That's awesome.</div>
-</div>
+## Final Question: Income Opportunity
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Earlier, you mentioned wanting more time — to travel more and be more present at home.</div>
-</div>
+And last question, if the plan shows a gap between your current income and the goals you have for your family, would you be open to earning some extra part-time income working with us?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Is it fair to say that's the main reason you're open to learning more about joining the team?</div>
-</div>
+> Possibly. Let's see how this goes first.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Yes.</div>
-</div>
+Great. That's all I'm asking for.
 
-<h2 class="subheading">Get Their Income Goal</h2>
+## Scheduling Follow-up
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">If that were to happen, how much extra income do you think you'd need each month for that to feel real?</div>
-</div>
+It'll take me a few days to put everything together properly to go over your formal plan. I have an opening this Monday or Wednesday. Would any of those days work for you?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Probably about two thousand dollars a month.</div>
-</div>
+> I'll be free on Wednesday.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That's fair.</div>
-</div>
+Great. I have a 6 p.m. or 8 p.m. opening. Would any of those times work for you?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">What we'll do next is schedule a separate meeting to build out a more formal business game plan.</div>
-</div>
+> I should be good for 8 p.m..
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">I'll walk you through our ninety-day training system in more detail, and I'll also introduce you to my broker — she's the one who signs off on all new hires.</div>
-</div>
+Great. I have it in my calendar. I'll send you an invite as well. That's awesome. Earlier you mentioned wanting more time to travel more and be more present at home. Is it fair to say that's the main reason you're open to learning more about joining the team?
 
-<h2 class="subheading">Create Passive Income Through Investments</h2>
+> Yeah, I think so.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">But before we do that, I want to show you the business plan my broker shared with me about three years ago — the one that really got me focused on working here.</div>
-</div>
+If that were to happen, how much extra income do you think you'd need each month for that to feel real?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">What appealed to me most about this business was the idea of passive income.</div>
-</div>
+> Probably about $2,000 a month.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Are you familiar with what passive income is?</div>
-</div>
+That's fair. What we'll do next is schedule a separate meeting to build out a more formal business game plan. I'll walk you through our 90-day training system in more detail, and I'll also introduce you to my broker, Vanessa. She's the one who signs off on all new hires. But before we do that, I want to show you the business plan my broker shared with me about three years ago, the one that really got me focused on working here.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Not really.</div>
-</div>
+What appealed to me most about this business was the idea of passive income. Are you familiar with what passive income is?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">In simple terms, passive income means the work you do today continues to pay you in the future.</div>
-</div>
+> I've heard the term, but I don't actually know what it means.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That's one of the main reasons people are drawn to finance — very few industries offer that.</div>
-</div>
+In simple terms. Passive income means the work you do today continues to pay you in the future. That's one of the main reasons people are drawn to finance. Very few industries offer that. You can almost think of it like building your own pension. Let me show you the plan. I used to work toward a $5,000 a month passive income over five years.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">You can almost think of it like building your own pension.</div>
-</div>
+When I sit down with a typical family, married kids, full time careers, they're usually saving about $500 a month between RRSP Tfsas and their kids education. But there are usually four big problems. First, they don't really know what they're invested in. They just know it's an RRSP or a TFSA. Second, they're unclear on their five year returns. Third, many haven't seen their advisor since the account was opened.
 
-<h2 class="subheading">Investors Have 4 Major Problems</h2>
+And fourth, there's no written plan. When you educate clients and give them clarity and structure, they typically stop saving at the bank and start saving with you. Every time new money is deposited into the investment accounts we open. The investment companies pay us an average of about 2%. Sometimes it's a bit more, sometimes a bit less. But 2% is a good average.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Let me show you the plan I used to work toward a five-thousand-dollar-a-month passive income over 5 years.</div>
-</div>
+Let me break that down. If a client redirects $500 a month and invest it through us, 2% of that is $10. By itself, that doesn't sound like much. But here's the key. Once people start monthly contributions, they usually don't stop it. It becomes automatic. Knowing that my goal was simple help just two clients per week with their investments.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">When I sit down with a typical family — married, kids, full-time careers — they're usually saving about five hundred dollars a month between RRSPs, TFSAs, and their kids' education.</div>
-</div>
+That's $500 times 2% times two clients, which equals $20. If I did that consistently for one year, 52 weeks, that added up to about $1,040 per month in passive income. And that's just from focusing on investments. An area where people desperately need guidance. Now take that same approach and continue it for five years, $1,040 multiplied by five years.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">But there are usually four big problems.</div>
-</div>
+That equals about $5,200 per month. I remember asking myself, how long would I have to work at my IT job to earn a pension paying me $5,200 a month? The answer was simple never. They didn't offer one. That's when this really clicked for me. So if this is a plan we could realistically build for you. Would you be interested in learning more about our 90 day training system?
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">First — they don't really know what they're invested in. They just know it's an RRSP or a TFSA.</div>
-</div>
+> Yeah, absolutely.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Second — they're unclear on their five-year returns.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Third — many haven't seen their advisor since the account was opened.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">And fourth — there's no written plan.</div>
-</div>
-
-<h2 class="subheading">Getting Paid through Investments</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">When you educate clients and give them clarity and structure, they typically stop saving at the bank and start saving with you.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Every time new money is deposited into the investment accounts we open, the investment companies pay us an average of about two percent.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Sometimes it's a bit more, sometimes a bit less — but two percent is a good average.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Let me break that down.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">If a client redirects five hundred dollars a month and invests it through us, two percent of that is ten dollars.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">By itself, that doesn't sound like much.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">But here's the key — once people start monthly contributions, they usually don't stop. It becomes automatic.</div>
-</div>
-
-<h2 class="subheading">Game Plan: Help 2 Clients Per Week</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Knowing that, my goal was simple: help just two clients per week with their investments.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That's five hundred dollars times two percent, times two clients — which equals twenty dollars.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">If I did that consistently for one year — fifty-two weeks — that added up to about one thousand forty dollars per month in passive income.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">And that's just from focusing on investments — an area where people desperately need guidance.</div>
-</div>
-
-<h2 class="subheading">Continue It For Five Years</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Now take that same approach and continue it for five years.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">One thousand forty dollars multiplied by five years equals about fifty-two hundred dollars per month.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">I remember asking myself — how long would I have to work at my IT job to earn a pension paying me fifty-two hundred dollars a month?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">The answer was simple — never. They didn't offer one.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That's when this really clicked for me.</div>
-</div>
-
-<h2 class="subheading">Schedule a more Detailed Game Plan</h2>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">So if this is a plan we could realistically build for you, would you be interested in learning more about our ninety-day training system?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Yes.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Perfect.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Why don't you swing by the office this Thursday at seven p.m.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">I'll introduce you to the team, and we'll walk through the game plan together.</div>
-</div>
-
-</div>
+Perfect. Why don't you swing by the office this Thursday at 7 p.m.? I'll introduce you to the team and we'll walk through the game plan together.

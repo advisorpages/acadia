@@ -1,114 +1,27 @@
 ---
 layout: chunk
-title: "Response A: Getting A Plan"
-
+title: "Getting a Plan"
+description: "Working with interested clients to create comprehensive financial plans"
 ---
 
-**Objective**: Set up the next meeting and start the planning process.
+Perfect. Tell me a bit about what you're already doing today. Are you currently investing on a monthly basis or is it more occasional?
 
-<div class="dialogue-container">
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Fantastic.</div>
-</div>
+## Gathering Information
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">What area of the financial house appealed to you the most?</div>
-</div>
+All right. I think we've got everything we need to put your plan together.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Probably the investments and saving for our kids’ education.</div>
-</div>
+## Final Questions
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Perfect.</div>
-</div>
+And I just have a few final questions to make sure we're aligned.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Tell me a bit about what you’re already doing today. Are you currently investing on a monthly basis, or is it more occasional?</div>
-</div>
+### Question 1: Implementation Commitment
+First, if I can put together a plan that helps you reach your financial goals and fits comfortably within your budget, would you be open to implementing it at our next appointment?
 
-<div class="dialogue-row">
-  <div class="speaker-column narrator">Narrator:</div>
-  <div class="dialogue-column">Continue using your input sheet to collect the details of their current plan.</div>
-</div>
+> Yeah, I think so. Obviously, if it makes sense.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Alright — I think we’ve got everything we need to put your plan together.</div>
-</div>
+Great.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">I just have a few final questions to make sure we’re aligned.</div>
-</div>
+### Question 2: Referral Comfort
+Second question, I know you already mentioned your brother Jose and your cousins Val and Eugene, but assuming you feel good about the work I do for you, would you be comfortable recommending me? A few more people like you? It's really important for me because it helps me grow my client base and will really help me start up my brokerage.
 
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">First — if I can put together a plan that helps you reach your financial goals and fits comfortably within your budget, would you be open to implementing it at our next appointment?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Yes.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Second — assuming you feel good about the work I do for you, would you be comfortable recommending me to ten or more people like yourselves?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">That’s important for me, because it helps me grow my client base and work toward opening my own brokerage over the next eighteen months.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Yeah, I’d be open to that.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">And last — if the plan shows a gap between your current income and the goals you have for your family, would you be open to earning some extra part-time income working with us?</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-2">Speaker 2:</div>
-  <div class="dialogue-column">Possibly, yes.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">Perfect.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">It’ll take me a few days to put everything together properly.</div>
-</div>
-
-<div class="dialogue-row">
-  <div class="speaker-column speaker-1">Speaker 1:</div>
-  <div class="dialogue-column">When would be a good time to follow up? I have an opening this Tuesday or Thursday — would either of those work for you?</div>
-</div>
-
-</div>
-
----
-
-## Resource: Financial Needs Analysis (FNA) Questionnaire
-
-For the planning meeting, use the **[FNA Questionnaire](https://advisorpages.github.io/acadia/FNA-Questionnaire.html)** to gather comprehensive financial information and create a detailed financial plan for your clients.
-
-**Purpose**:
-- Collect detailed financial data for analysis
-- Identify gaps between current situation and goals
-- Develop actionable recommendations for the financial plan
-- Structure your planning process effectively
-
-**Usage**: Complete this questionnaire during or before your planning appointment to ensure you have all the necessary information to create a comprehensive financial plan for your clients.
+> Yeah, I can definitely help with that.
