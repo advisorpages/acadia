@@ -1,5 +1,5 @@
 ---
-layout: chunk
+layout: default
 title: "Presentation Skills Training Framework"
 ---
 
@@ -9,15 +9,21 @@ title: "Presentation Skills Training Framework"
 
 This presentation framework is designed to guide you through delivering a simple, duplicatable presentation broken up into digestible parts. The goal is to **pique interest**, **get them a plan**, and **recruit them onto the team**.
 
-<div style="position:relative;height:0;padding-bottom:56.25%;margin-bottom:20px;">
+<div style="position:relative;height:0;padding-bottom:56.25%;margin-bottom:20px;background:#000;border-radius:8px;overflow:hidden;">
   <iframe
-    src="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212?autoplay=false"
-    loading="lazy"
-    style="border:none;position:absolute;top:0;height:100%;width:100%;border-radius:8px;"
+    src="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212?autoplay=false&preload=true"
+    style="border:none;position:absolute;top:0;left:0;height:100%;width:100%;border-radius:8px;"
     allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
     allowfullscreen="true"
     id="bunny-iframe"
+    frameborder="0"
+    scrolling="no"
   ></iframe>
+  <!-- Fallback message for debugging -->
+  <div id="video-fallback" style="display:none;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:white;text-align:center;padding:20px;">
+    <p>📹 Video loading...</p>
+    <p style="font-size:14px;opacity:0.7;">If video doesn't load, <a href="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212" target="_blank" style="color:#4fc3f7;">watch here</a></p>
+  </div>
 </div>
 
 <!-- Custom Chapters UI -->
@@ -46,7 +52,9 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     const chaptersList = document.getElementById('chapters-list');
+    const fallback = document.getElementById('video-fallback');
 
+    // Create chapter elements
     chapters.forEach((chapter, index) => {
         const chapterElement = document.createElement('div');
         chapterElement.style.cssText = `
@@ -102,29 +110,76 @@ document.addEventListener("DOMContentLoaded", function() {
     function seekToChapter(seconds) {
         const iframe = document.getElementById('bunny-iframe');
         if (iframe && iframe.contentWindow) {
-            // Send postMessage to seek to specific time
-            iframe.contentWindow.postMessage({
-                method: 'setCurrentTime',
-                value: seconds
-            }, '*');
+            try {
+                // Send postMessage to seek to specific time
+                iframe.contentWindow.postMessage({
+                    method: 'setCurrentTime',
+                    value: seconds
+                }, '*');
 
-            // Also try to play if paused
-            iframe.contentWindow.postMessage({
-                method: 'play'
-            }, '*');
+                // Also try to play if paused
+                iframe.contentWindow.postMessage({
+                    method: 'play'
+                }, '*');
+            } catch (error) {
+                console.log('Seek command failed:', error);
+                // Fallback: reload iframe with time parameter
+                const currentSrc = iframe.src;
+                const newSrc = currentSrc.includes('?')
+                    ? currentSrc.split('?')[0] + `?t=${seconds}&autoplay=true`
+                    : currentSrc + `?t=${seconds}&autoplay=true`;
+                iframe.src = newSrc;
+            }
         }
     }
 
-    // Add a loading indicator
+    // Enhanced video loading detection
     const iframe = document.getElementById('bunny-iframe');
+    let loadTimeout;
+
+    function showFallback() {
+        if (fallback) fallback.style.display = 'block';
+    }
+
+    function hideFallback() {
+        if (fallback) fallback.style.display = 'none';
+    }
+
+    // Start loading detection
+    loadTimeout = setTimeout(showFallback, 5000);
+
     iframe.addEventListener('load', function() {
+        clearTimeout(loadTimeout);
         console.log('Video player loaded successfully');
+        hideFallback();
+
+        // Try to verify iframe content loaded
+        setTimeout(() => {
+            try {
+                if (iframe.contentWindow) {
+                    // If we can access contentWindow, it's likely loaded
+                    console.log('Video content accessible');
+                }
+            } catch (e) {
+                console.log('Video content not accessible (cross-origin, but this is normal)');
+            }
+        }, 1000);
     });
 
     iframe.addEventListener('error', function() {
+        clearTimeout(loadTimeout);
         console.error('Failed to load video player');
+        showFallback();
         document.getElementById('chapters-container').style.display = 'none';
     });
+
+    // Monitor iframe loading state
+    setTimeout(() => {
+        if (iframe.complete !== false) {
+            clearTimeout(loadTimeout);
+            hideFallback();
+        }
+    }, 3000);
 });
 </script>
 
