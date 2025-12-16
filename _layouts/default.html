@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Site Title" }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/video-player.css' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
 </head>
 <body>
@@ -68,6 +69,8 @@
         </div>
     </footer>
 
+    <script src="https://iframe.bunny.net/js/player.js"></script>
+    <script src="{{ '/assets/js/video-player.js' | relative_url }}"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.querySelector('.mobile-menu-toggle');
