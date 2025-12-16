@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
     const bunnyIframe = document.getElementById('bunny-iframe');
     const chapters = [
-        { time: 0, title: "Break the Ice", duration: "0:36" },
-        { time: 36, title: "Get to Know Them", duration: "1:20" },
-        { time: 116, title: "Set Expectations", duration: "0:36" },
-        { time: 152, title: "The Financial House", duration: "1:24" },
-        { time: 236, title: "Problems with the House", duration: "3:39" },
-        { time: 455, title: "The Solution", duration: "0:50" },
-        { time: 505, title: "Identify Referrals", duration: "0:48" },
-        { time: 553, title: "Your Personal Story", duration: "1:20" },
-        { time: 633, title: "How We Get Paid", duration: "1:51" },
-        { time: 744, title: "The Closing Question", duration: "0:21" },
-        { time: 765, title: "A) Get a Plan", duration: "1:45" },
-        { time: 870, title: "B) Make Extra Money", duration: "7:26" }
+        { time: 0, title: "Break the Ice", duration: "0:36", step: 1, stepLabel: "Step 1", isSubStep: false },
+        { time: 36, title: "Get to Know Them", duration: "1:20", step: 2, stepLabel: "Step 2", isSubStep: false },
+        { time: 116, title: "Set Expectations", duration: "0:36", step: 3, stepLabel: "Step 3", isSubStep: false },
+        { time: 152, title: "The Financial House", duration: "1:24", step: 4, stepLabel: "Step 4", isSubStep: false },
+        { time: 236, title: "Problems with the House", duration: "3:39", step: 5, stepLabel: "Step 5", isSubStep: false },
+        { time: 455, title: "The Solution", duration: "0:50", step: 5.1, stepLabel: "Step 5a", isSubStep: true, parentStep: 5 },
+        { time: 505, title: "Identify Referrals", duration: "0:48", step: 5.2, stepLabel: "Step 5b", isSubStep: true, parentStep: 5 },
+        { time: 553, title: "Your Personal Story", duration: "1:20", step: 6, stepLabel: "Step 6", isSubStep: false },
+        { time: 633, title: "How We Get Paid", duration: "1:51", step: 7, stepLabel: "Step 7", isSubStep: false },
+        { time: 744, title: "The Closing Question", duration: "0:21", step: 8, stepLabel: "Step 8", isSubStep: false },
+        { time: 765, title: "A) Get a Plan", duration: "1:45", step: 8.1, stepLabel: "Step 8a", isSubStep: true, parentStep: 8 },
+        { time: 870, title: "B) Make Extra Money", duration: "7:26", step: 8.2, stepLabel: "Step 8b", isSubStep: true, parentStep: 8 }
     ];
 
     const chaptersList = document.getElementById('chapters-list');
@@ -30,11 +30,15 @@ document.addEventListener("DOMContentLoaded", function() {
     chapters.forEach((chapter, index) => {
         const chapterElement = document.createElement('div');
         chapterElement.className = 'chapter-item';
+        if (chapter.isSubStep) {
+            chapterElement.classList.add('sub-step');
+        }
         chapterElement.dataset.index = index;
+        chapterElement.dataset.step = chapter.step;
 
         chapterElement.innerHTML = `
             <div class="chapter-label">
-                <span class="chapter-index">${index + 1}</span>
+                <span class="step-number">${chapter.stepLabel}</span>
                 <span class="chapter-title">${chapter.title}</span>
             </div>
             <span class="chapter-duration">${chapter.duration}</span>
@@ -49,7 +53,9 @@ document.addEventListener("DOMContentLoaded", function() {
         chapterEntries.push({
             element: chapterElement,
             start: chapter.time,
-            end: index < chapters.length - 1 ? chapters[index + 1].time : Infinity
+            end: index < chapters.length - 1 ? chapters[index + 1].time : Infinity,
+            step: chapter.step,
+            isSubStep: chapter.isSubStep
         });
     });
 

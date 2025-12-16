@@ -11,7 +11,7 @@ This presentation framework is designed to guide you through delivering a simple
 
 <div style="position:relative;height:0;padding-bottom:56.25%;margin-bottom:20px;background:#000;border-radius:8px;overflow:hidden;">
   <iframe
-    src="https://iframe.bunny.net/embed/e4557da2-cafa-44f0-97a9-0221a1c3b212?autoplay=false&preload=true"
+    src="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212?autoplay=false&preload=true"
     style="border:none;position:absolute;top:0;left:0;height:100%;width:100%;border-radius:8px;"
     allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
     allowfullscreen="true"
@@ -22,7 +22,7 @@ This presentation framework is designed to guide you through delivering a simple
   <!-- Fallback message for debugging -->
   <div id="video-fallback" style="display:none;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:white;text-align:center;padding:20px;">
     <p>📹 Video loading...</p>
-    <p style="font-size:14px;opacity:0.7;">If video doesn't load, <a href="https://iframe.bunny.net/embed/e4557da2-cafa-44f0-97a9-0221a1c3b212" target="_blank" style="color:#4fc3f7;">watch here</a></p>
+    <p style="font-size:14px;opacity:0.7;">If video doesn't load, <a href="https://iframe.mediadelivery.net/embed/124653/e4557da2-cafa-44f0-97a9-0221a1c3b212" target="_blank" style="color:#4fc3f7;">watch here</a></p>
   </div>
 </div>
 
