@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Setting Expectations"
+title: "Set Expectations"
 description: "Clear framework for possible outcomes and three possible paths"
 ---
 

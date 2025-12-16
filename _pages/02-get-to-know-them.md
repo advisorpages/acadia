@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "Getting to Know You"
+title: "Get to Know Them"
 description: "Discovery and understanding phase - learning about their family, career, and goals"
 ---
 

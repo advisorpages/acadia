@@ -1,6 +1,6 @@
 ---
 layout: chunk
-title: "The First 5 Minutes"
+title: "Breaking the Ice"
 description: "Building rapport and setting expectations for the presentation"
 ---
 
