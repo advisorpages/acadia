@@ -5,14 +5,15 @@ document.addEventListener("DOMContentLoaded", function() {
         { time: 36, title: "Get to Know Them", duration: "1:20", step: 2, stepLabel: "Step 2", isSubStep: false },
         { time: 116, title: "Set Expectations", duration: "0:36", step: 3, stepLabel: "Step 3", isSubStep: false },
         { time: 152, title: "The Financial House", duration: "1:24", step: 4, stepLabel: "Step 4", isSubStep: false },
-        { time: 236, title: "Problems with the House", duration: "3:39", step: 5, stepLabel: "Step 5", isSubStep: false },
-        { time: 455, title: "The Solution", duration: "0:50", step: 5.1, stepLabel: "Step 5a", isSubStep: true, parentStep: 5 },
-        { time: 505, title: "Identify Referrals", duration: "0:48", step: 5.2, stepLabel: "Step 5b", isSubStep: true, parentStep: 5 },
-        { time: 553, title: "Your Personal Story", duration: "1:20", step: 6, stepLabel: "Step 6", isSubStep: false },
-        { time: 633, title: "How We Get Paid", duration: "1:51", step: 7, stepLabel: "Step 7", isSubStep: false },
-        { time: 744, title: "The Closing Question", duration: "0:21", step: 8, stepLabel: "Step 8", isSubStep: false },
-        { time: 765, title: "A) Get a Plan", duration: "1:45", step: 8.1, stepLabel: "Step 8a", isSubStep: true, parentStep: 8 },
-        { time: 870, title: "B) Make Extra Money", duration: "7:26", step: 8.2, stepLabel: "Step 8b", isSubStep: true, parentStep: 8 }
+        { time: 236, title: "Problems with the House", duration: "3:39", step: 4.1, stepLabel: "Step 04a", isSubStep: true, parentStep: 4 },
+        { time: 455, title: "The Solution", duration: "0:50", step: 4.2, stepLabel: "Step 04b", isSubStep: true, parentStep: 4 },
+        { time: 505, title: "Identify Referrals", duration: "0:48", step: 4.3, stepLabel: "Step 04c", isSubStep: true, parentStep: 4 },
+        { time: 553, title: "Your Personal Story", duration: "1:20", step: 5, stepLabel: "Step 5", isSubStep: false },
+        { time: 633, title: "How We Get Paid", duration: "1:51", step: 6, stepLabel: "Step 6", isSubStep: false },
+        { time: 744, title: "The Closing Question", duration: "0:21", step: 7, stepLabel: "Step 7", isSubStep: false },
+        { time: 765, title: "A) Get a Plan", duration: "1:45", step: 7.1, stepLabel: "Step 07a", isSubStep: true, parentStep: 7 },
+        { time: 870, title: "B) Make Extra Money", duration: "7:26", step: 7.2, stepLabel: "Step 07b", isSubStep: true, parentStep: 7 },
+        { time: 907, title: "$5,000 in 5 Years", duration: "6:49", step: 7.3, stepLabel: "Step 07c", isSubStep: true, parentStep: 7 }
     ];
 
     const chaptersList = document.getElementById('chapters-list');

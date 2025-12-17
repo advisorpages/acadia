@@ -4,12 +4,7 @@ title: "Get to Know Them"
 description: "Ask the right questions to understand their career, family, and goals. Learn how to uncover what they truly want and identify gaps in their current financial situation."
 ---
 
-<style>
-  table { width: 100%; border-collapse: collapse; }
-  th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
-  th { background-color: #f8f9fa; }
-  .client-row { background-color: #f0f8ff; }
-</style>
+
 
 <table>
   <thead>

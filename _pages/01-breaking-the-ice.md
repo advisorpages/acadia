@@ -4,12 +4,7 @@ title: "Breaking the Ice"
 description: "Start your meeting by setting clear expectations and building immediate trust. Learn how to position this as a relationship-building conversation, not a sales pitch."
 ---
 
-<style>
-  table { width: 100%; border-collapse: collapse; }
-  th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
-  th { background-color: #f8f9fa; }
-  .client-row { background-color: #f0f8ff; }
-</style>
+
 
 <table>
   <thead>
@@ -47,7 +42,7 @@ description: "Start your meeting by setting clear expectations and building imme
       <td>You</td>
       <td>Would that be okay?</td>
     </tr>
-    <tr class="client-row">
+    <tr>
       <td>Client</td>
       <td>Yeah, that sounds fair.</td>
     </tr>

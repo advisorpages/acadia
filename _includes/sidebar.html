@@ -1,5 +1,3 @@
-{% capture base_path %}{% include base-path.html %}{% endcapture %}
-{% assign base_path = base_path | strip %}
 <aside class="sidebar">
     {% assign nav = site.data.navigation %}
     {% assign home_item = nav.home %}
@@ -7,10 +5,14 @@
     {% assign step_items = nav.steps | default: empty %}
     {% assign resource_items = nav.resources | default: empty %}
     <nav class="sidebar-nav">
+        <!-- Site Title -->
+        <div class="site-title-section">
+            <h2 class="site-main-title">Coffee Presentation</h2>
+        </div>
         {% if home_item %}
         <ul class="nav-list nav-home">
             <li class="nav-resource-item">
-                <a href="{{ base_path }}{{ home_item.url }}"{% if page.url == home_item.url %} class="active"{% endif %}>
+                <a href="{{ home_item.url | relative_url }}"{% if page.url == home_item.url %} class="active"{% endif %}>
                     <span class="nav-resource-icon">{{ home_item.icon | default: '🏠' }}</span>
                     <span class="nav-title">{{ home_item.title }}</span>
                 </a>
@@ -22,7 +24,7 @@
         <ul class="nav-list nav-featured">
             {% for feature in featured_items %}
             <li class="nav-resource-item nav-feature-item">
-                <a href="{{ base_path }}{{ feature.url }}"{% if page.url == feature.url %} class="active"{% endif %}>
+                <a href="{{ feature.url | relative_url }}"{% if page.url == feature.url %} class="active"{% endif %}>
                     <span class="nav-resource-icon">{{ feature.icon | default: feature.badge | default: '★' }}</span>
                     <span class="nav-title">{{ feature.title }}</span>
                 </a>
@@ -33,23 +35,28 @@
 
         {% if step_items and step_items.size > 0 %}
         <div class="nav-divider-top"></div>
-        <div class="nav-steps">Steps</div>
+        <div class="nav-steps">Presentation Steps</div>
         <ul class="nav-list nav-steps-list">
             {% assign step_index = 0 %}
             {% for step in step_items %}
             {% assign step_index = step_index | plus: 1 %}
+            {% assign step_label = step.label | default: step_index %}
             {% assign has_substeps = step.substeps and step.substeps.size > 0 %}
             <li{% if has_substeps %} class="has-submenu collapsed"{% endif %}>
-                <a href="{{ base_path }}{{ step.url }}"{% if page.url == step.url %} class="active"{% endif %}>
-                    <span class="nav-step">{{ step_index }}</span>
+                <a href="{{ step.url | relative_url }}"{% if page.url == step.url %} class="active"{% endif %}>
+                    <span class="nav-step">{{ step_label }}</span>
                     <span class="nav-title">{{ step.title }}</span>
                 </a>
                 {% if has_substeps %}
                 <button class="submenu-toggle" type="button" aria-label="Toggle submenu"></button>
                 <ul class="submenu collapsed">
                     {% for substep in step.substeps %}
+                    {% assign substep_label = substep.label %}
                     <li>
-                        <a href="{{ base_path }}{{ substep.url }}"{% if page.url == substep.url %} class="active"{% endif %}>
+                        <a href="{{ substep.url | relative_url }}"{% if page.url == substep.url %} class="active"{% endif %}>
+                            {% if substep_label %}
+                            <span class="nav-substep-label">{{ substep_label }}</span>
+                            {% endif %}
                             <span class="nav-title">{{ substep.title }}</span>
                         </a>
                     </li>
@@ -67,7 +74,7 @@
         <ul class="nav-list nav-resources-list">
             {% for resource in resource_items %}
             <li class="nav-resource-item">
-                <a href="{{ base_path }}{{ resource.url }}"{% if page.url == resource.url %} class="active"{% endif %}>
+                <a href="{{ resource.url | relative_url }}"{% if page.url == resource.url %} class="active"{% endif %}>
                     <span class="nav-resource-icon">{{ resource.icon | default: '•' }}</span>
                     <span class="nav-title">{{ resource.title }}</span>
                 </a>

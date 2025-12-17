@@ -1,14 +1,12 @@
-{% capture base_path %}{% include base-path.html %}{% endcapture %}
-{% assign base_path = base_path | strip %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Site Title" }}</title>
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css">
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/video-player.css">
-    <link rel="icon" type="image/x-icon" href="{{ base_path }}/favicon.ico">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/video-player.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
 </head>
 <body>
     <div class="app-container">
@@ -41,7 +39,7 @@
     </footer>
 
     <script src="https://assets.mediadelivery.net/playerjs/playerjs-latest.min.js"></script>
-    <script src="{{ base_path }}/assets/js/video-player.js"></script>
+    <script src="{{ '/assets/js/video-player.js' | relative_url }}"></script>
     {% include sidebar-scripts.html %}
 </body>
 </html>

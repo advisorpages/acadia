@@ -111,17 +111,35 @@ body {
 }
 
 .nav-step {
-  width: 28px;
+  min-width: 40px;
   height: 28px;
-  border-radius: 50%;
+  border-radius: 999px;
   background-color: #e2e8f0;
   color: #64748b;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
   flex-shrink: 0;
+  padding: 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.nav-substep-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #475569;
+  background-color: #e2e8f0;
+  border-radius: 999px;
+  padding: 2px 8px;
+  margin-right: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .sidebar-nav a.active .nav-step {
@@ -363,6 +381,22 @@ body {
 .site-content {
   flex: 1;
   padding: 24px 0 36px;
+}
+
+/* Site main title in sidebar */
+.site-title-section {
+  padding: 20px 16px;
+  text-align: center;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 16px;
+}
+
+.site-main-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.3;
 }
 
 /* Site Footer */
@@ -748,6 +782,14 @@ th {
 
   .nav-resources {
     padding: 6px 16px;
+  }
+
+  .site-title-section {
+    padding: 16px 12px;
+  }
+
+  .site-main-title {
+    font-size: 1.1em;
   }
 
   .sidebar-nav .nav-resource-item a {
